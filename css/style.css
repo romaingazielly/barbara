@@ -1,0 +1,27 @@
+/*****************************/
+/* HEADER                    */
+/*****************************/
+body{background:pink;}
+header{position:fixed; width:100%; height:140px; background:#fff;}
+header .left, header .right{display:flex; width:50%; height:100%; align-items:center; justify-content:space-between;}
+header #logo{display:block; margin:0 0 0 50px; text-decoration:none;}
+header #logo img{display:block; margin:0 0 10px 0;}
+header #logo span{font:13px/15px "PT Sans"; color:#4a4949; letter-spacing:1.3px;}
+
+/* Burger */
+.burger {position:relative; z-index:999;}
+.burger.btn-open + nav{display:block;}
+.burger a {width:38px; height:38px; background:#090909; position:relative; display: block;}
+.btn-burger span {position: absolute; top: 50%; left:50%; display: block; width:18px; height: 2px; margin-top: -2px; margin-left:-9px; background-color: #fff; font-size: 0px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-transition: background-color 0.3s; transition: background-color 0.3s;}
+.btn-open .btn-burger span { background-color: transparent; }
+.btn-burger span:before, .btn-burger span:after { position: absolute; left: 0; width: 18px; height: 100%; background: #fff; content: ''; -webkit-transition: all 0.3s; transition: all 0.3s; }
+.btn-burger span:before { -webkit-transform: translateY(-350%); transform: translateY(-350%); }
+.btn-burger span:after { -webkit-transform: translateY(350%); transform: translateY(350%);}
+.btn-open .btn-burger span:before { -webkit-transform: translateY(0) rotate(45deg); transform: translateY(0) rotate(45deg); background:#fff; }
+.btn-open .btn-burger span:after { -webkit-transform: translateY(0) rotate(-45deg); transform: translateY(0) rotate(-45deg); background:#fff; }
+
+/* Menu */
+nav{display:none; position:absolute; left:0; top:140px; padding:0 0 0 50px; background:#fff; width:50%;}
+nav p{margin:0 0 60px 0;}
+nav p a{font:300 40px "Open Sans"; color:#000; letter-spacing:4px;}
+nav ul {margin:0 0 60px 0;}
