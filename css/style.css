@@ -68,6 +68,18 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 	/* Burger */
 	.burger{margin:0 30px 0 0;}
 
+	/* Menu */
+
+	nav{width:100%;}
+	nav ul{margin-bottom:30px; -webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}
+	nav ul li{margin-bottom:22px;}
+	nav ul li:nth-child(4n){margin-bottom:22px;}
+	nav ul li:last-child{margin-bottom:0;}
+	nav ul li:before{color:#2b2b2b;}
+	nav ul li a{color:#2b2b2b;}
+	nav p{margin-bottom:30px;}
+	nav p a{font:300 25px/30px "Open Sans";}
+
 	/* About */
 	.about{background:#fff0f0;}
 	.about figure img{display:none;}
