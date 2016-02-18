@@ -34,22 +34,40 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 /* ABOUT                     */
 /*****************************/
 .container{position:relative; top:140px;}
-.about{background:#fff0f0;}
-.about figure{display:flex; align-items:center;}
-.about figure img{width:42.428571%; /* 597 ÷ 1400 */}
-.about figure figcaption{width:57.357143%; /* 803 ÷ 1400  padding:0 170px 0 120px; */ padding:0 12.142857% 0 8.5714286%; font:14px/21px "PT Sans"; color:#090909; letter-spacing:.1em;}
-.about figure figcaption h1{font:300 40px/45px "Open Sans"; margin:0 0 35px 0; display:inline-flex; border-bottom:solid 5px #090909;}
-.about figure figcaption p{margin:0 0 30px 0;}
-.about figure figcaption .link{position:relative; text-align:right; border-bottom: solid 1px #090909; padding:0 0 5px 0;}
-.about figure figcaption .link:after{position:absolute; right:0; bottom:-3px; content:""; display:block; width:70px; height:5px; background:#090909;}
-.about figure figcaption .link a{text-decoration:none; color:#090909; font:700 14px "PT Sans";}
+h1{font:300 40px/45px "Open Sans"; margin:0 0 35px 0; display:inline-flex; border-bottom:solid 5px #090909;}
 
+.infos{background:#fff0f0;}
+.infos figure{display:flex; align-items:center;}
+.infos figure img{width:42.428571%; /* 597 ÷ 1400 */}
+.infos figure figcaption{width:57.357143%; /* 803 ÷ 1400  padding:0 170px 0 120px; */ padding:0 12.142857% 0 8.5714286%; font:14px/21px "PT Sans"; color:#090909; letter-spacing:.1em;}
+.infos figure figcaption p{margin:0 0 30px 0;}
+.infos figure figcaption .link{position:relative; text-align:right; border-bottom: solid 1px #090909; padding:0 0 5px 0;}
+.infos figure figcaption .link:after{position:absolute; right:0; bottom:-3px; content:""; display:block; width:70px; height:5px; background:#090909;}
+.infos figure figcaption .link a{text-decoration:none; color:#090909; font:700 14px "PT Sans";}
+
+.worked{padding:9.375%; /* 30px ÷ 320 */}
+.worked h1{text-decoration:underline; border:none;}
+.worked ul{width:100%; padding:0 0 15.384616% 0; margin:0 0 15.384616% 0; border-bottom:solid 1px #000;}
+.worked li{width:46.153846%; /* 120px ÷ 260 */ display:inline-block; vertical-align:top; background:#f4f4f5; margin:0 7.6923077% 7.6923077% 0; /* 20 ÷ 260 */}
+.worked li:nth-child(even){margin-right:0;}
+.worked li img{display:block; width:100%;}
+
+footer.a{position:relative; display:flex; background:#fff0f0; height:150px; align-items:center; justify-content:space-between;}
+footer.a #logo-footer{display:block; margin:0 0 0 3.5714286%; text-decoration:none;}
+footer.a #logo-footer img{display:block; margin:0 0 10px 0; max-width:100%; height:auto;}
+footer.a #logo-footer span{font:13px/15px "PT Sans"; color:#4a4949; letter-spacing:.1em;}
+footer.a .links{display:flex; margin:0 20.714286% 0 0; /* 290 ÷ 1400 */}
+footer.a .join h1{display:block; margin:0; font:700 14px "PT Sans"; border:none; color:#090909; letter-spacing:.1em;}
+footer.a .join a{font:400 14px "PT Sans"; color:#090909; letter-spacing:.1em;}
+footer.a .social{margin:0 0 0 145px;}
+footer.a .social a{font:700 14px "PT Sans"; text-decoration:none; color:#090909;}
+footer.a .social a:before{display:inline-block; vertical-align:middle; content:""; background:url('../images/arr-projets.png') no-repeat center; margin-right:10px; width:10px; height:7px; background-size:cover;}
 
 @media screen and (max-width:1100px){
-	/* About */
-	.about{background:#fff0f0 url('../images/barbara.png') no-repeat left center;}
-	.about figure img{opacity:0;}
-	.about figure figcaption{padding-right:80px;}
+	/* infos */
+	.infos{background:#fff0f0 url('../images/barbara.png') no-repeat left center;}
+	.infos figure img{opacity:0;}
+	.infos figure figcaption{padding-right:80px;}
 }
 
 /* Tablette Portrait */
@@ -69,7 +87,6 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 	.burger{margin:0 30px 0 0;}
 
 	/* Menu */
-
 	nav{width:100%;}
 	nav ul{margin-bottom:30px; -webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}
 	nav ul li{margin-bottom:22px;}
@@ -80,8 +97,8 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 	nav p{margin-bottom:30px;}
 	nav p a{font:300 25px/30px "Open Sans";}
 
-	/* About */
-	.about{background:#fff0f0;}
-	.about figure img{display:none;}
-	.about figure figcaption{width:100%; padding:12.5% 9.375%; /* 80px 30px */}
+	/* infos */
+	.infos{background:#fff0f0;}
+	.infos figure img{display:none;}
+	.infos figure figcaption{width:100%; padding:12.5% 9.375%; /* 80px 30px */}
 }
