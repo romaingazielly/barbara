@@ -14,7 +14,12 @@ jQuery(document).ready(function($) {
 	// Burger
 	$('.burger').on('click', function(){
 		$('.burger').toggleClass('btn-open');
-	})
+	});
+
+	$('a#next-projet').on('click', function(event) {
+		event.preventDefault();
+		sliderHome();
+	});
 });
 
 function resizeHome() {
@@ -27,4 +32,19 @@ function resizeHome() {
 	}
 	console.log('window: '+$h, $w);
 	$('.home').css({ 'height': $h + 'px' }); // Header
+}
+
+function sliderHome(){
+	$.getJSON( "projets/projet-2.json", function(data){
+		$("#miniature-projet").attr('src', data.miniature); // Miniature
+		$('#titre-projet').html("<span>"+data.projet+"</span>"); // Titre
+		$('.preview figure').css("background", "url(../images/projets/projet-"+data.id+"-big.jpg)"); // Preview
+		$('#num-projet').html(data.id); // Numérotation
+	})
+	.done(function(){
+		console.log('done!')
+	})
+	.fail(function(){
+		console.log('fail: ')
+	});
 }
