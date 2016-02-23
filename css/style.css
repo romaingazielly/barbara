@@ -14,9 +14,9 @@ header #logo span{font:13px/15px "PT Sans"; color:#4a4949; letter-spacing:.1em;}
 .burger {position:relative; z-index:10; margin:0 50px 0 0;}
 .burger.btn-open + nav{display:block;}
 .burger a {width:38px; height:38px; background:#090909; position:relative; display: block;}
-.btn-burger span {position: absolute; top: 50%; left:50%; display: block; width:18px; height: 2px; margin-top: -2px; margin-left:-9px; background-color: #fff; font-size: 0px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-transition: background-color 0.3s; transition: background-color 0.3s;}
+.btn-burger span {position: absolute; top: 50%; left:50%; display: block; width:47.368421%; /* 18px ÷ 38 */ height: 2px; margin:-1px 0 0 calc(-47.368421% / 2); background-color: #fff; font-size: 0px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-transition: background-color 0.3s; transition: background-color 0.3s;}
 .btn-open .btn-burger span { background-color: transparent; }
-.btn-burger span:before, .btn-burger span:after { position: absolute; left: 0; width: 18px; height: 100%; background: #fff; content: ''; -webkit-transition: all 0.3s; transition: all 0.3s; }
+.btn-burger span:before, .btn-burger span:after { position: absolute; left: 0; width:100%; height: 100%; background: #fff; content: ''; -webkit-transition: all 0.3s; transition: all 0.3s; }
 .btn-burger span:before { -webkit-transform: translateY(-350%); transform: translateY(-350%); }
 .btn-burger span:after { -webkit-transform: translateY(350%); transform: translateY(350%);}
 .btn-open .btn-burger span:before { -webkit-transform: translateY(0) rotate(45deg); transform: translateY(0) rotate(45deg); background:#fff; }
@@ -104,14 +104,34 @@ footer.a .social a:before{display:inline-block; vertical-align:middle; content:"
 	header .left{width:100%;}
 	header .right{display:none;}
 	.burger{margin:0 50px 0 0;}
+
+	/* Home */
+	.home .projet{flex-wrap:wrap;}
+	.home .projet-infos{width:100%; height:490px; justify-content:space-between;}
+	.home .projet-infos h1{font:300 47px/52px "Open Sans";}
+	.home .projet-infos h1 span:after{height:3px;}
+	.home .projet-infos a.projet-link{margin:0 0 40px 0;}
+	.home .nav{margin:0 auto; height:84px; width:auto; flex-direction:row;}
+	.home .nav a#prev-projet{margin-top:0; margin-right:40px;}
+	.home .nav a#next-projet{margin-bottom:0; margin-left:40px;}
+
+	.home .preview{width:100%; height:450px;}
+	.home .preview figure{width:600px; height:370px; margin:0 auto; overflow:hidden;}
+
 }
 
 @media screen and (max-width:414px){
 	/* Header */
+	header{height:90px;}
 	header #logo{margin:0 0 0 30px;}
+	header #logo img{width:100px; margin:0 0 1px 0;}
+	header #logo span{font:10px/10px "PT Sans";}
 
 	/* Burger */
 	.burger{margin:0 30px 0 0;}
+	.burger a{width:30px; height:30px;}
+	.btn-burger span:before { -webkit-transform: translateY(-250%); transform: translateY(-250%); }
+	.btn-burger span:after { -webkit-transform: translateY(250%); transform: translateY(250%);}
 
 	/* Menu */
 	nav{width:100%;}
@@ -123,6 +143,16 @@ footer.a .social a:before{display:inline-block; vertical-align:middle; content:"
 	nav ul li a{color:#2b2b2b;}
 	nav p{margin-bottom:30px;}
 	nav p a{font:300 25px/30px "Open Sans";}
+
+	/* Home */
+	.home .projet-infos{height:87.5%; /* 420 ÷ 480 */ justify-content:space-around;}
+	.home .projet-infos .resume{margin:23.809524% 0 0 0; /* 100 ÷ 420 */}
+	.home .projet-infos img{margin:0 auto 10px; /* 90 ÷ 420 */}
+	.home .projet-infos h1{font:300 35px/43px "Open Sans"; margin-bottom:20px}
+	.home .projet-infos p.legend{font:12px "PT Sans";}
+	.home .projet-infos a.projet-link{font:700 10px "PT Sans"; padding:0 0 10px 0; margin:0 0 30px 0;}
+	.home .preview{display:none;}
+	.home .nav{height:12.5%; /* 60 ÷ 480 */}
 
 	/* infos */
 	.infos{background:#fff0f0;}

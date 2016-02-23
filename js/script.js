@@ -5,6 +5,7 @@ var $window = $(window),
 jQuery(document).ready(function($) {
 
 	// Windows
+	// Attention s'effectue également sur Tablette et Mobile
 	resizeHome();
 	$(window).resize(function(){ 
 		resizeHome();
