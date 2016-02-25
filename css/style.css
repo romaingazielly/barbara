@@ -79,16 +79,40 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 .worked li:nth-child(even){margin-right:0;}
 .worked li img{display:block; width:100%;}
 
-footer.a{position:relative; display:flex; background:#fff0f0; height:150px; align-items:center; justify-content:space-between;}
-footer.a #logo-footer{display:block; margin:0 0 0 3.5714286%; text-decoration:none;}
-footer.a #logo-footer img{display:block; margin:0 0 10px 0; max-width:100%; height:auto;}
-footer.a #logo-footer span{font:13px/15px "PT Sans"; color:#4a4949; letter-spacing:.1em;}
-footer.a .links{display:flex; margin:0 20.714286% 0 0; /* 290 ÷ 1400 */}
-footer.a .join h1{display:block; margin:0; font:700 14px "PT Sans"; border:none; color:#090909; letter-spacing:.1em;}
-footer.a .join a{font:400 14px "PT Sans"; color:#090909; letter-spacing:.1em;}
-footer.a .social{margin:0 0 0 145px;}
-footer.a .social a{font:700 14px "PT Sans"; text-decoration:none; color:#090909;}
-footer.a .social a:before{display:inline-block; vertical-align:middle; content:""; background:url('../images/arr-projets.png') no-repeat center; margin-right:10px; width:10px; height:7px; background-size:cover;}
+/*****************************/
+/* PROJECT                   */
+/*****************************/
+.projets{width:100%; top:140px;}
+.projets + footer{background:#e7eeff;}
+.intro-projet{display:flex; justify-content:space-between; background:#e7eeff;}
+.intro-projet .title-projet{display:flex; align-items:flex-start; margin:70px 0 0 0;}
+.intro-projet .title-projet h1{display:inline-block; font:300 40px/55px "Open Sans"; color:#000; text-align: center;}
+.intro-projet .title-projet h1 span{display:inline-block; position:relative;}
+.intro-projet .title-projet h1 span:after{display:block; content:""; width:100%; height:5px; background:#3653ff; margin:auto;}
+.intro-projet .title-projet img{display:inline-block; margin:0 50px; max-width:100%;}
+.intro-projet .infos-projet{display:flex; flex-direction:column; width:60%; padding:70px 135px 70px 0;}
+.intro-projet .infos-projet section{display:table; margin:20px 0;}
+.intro-projet .infos-projet section:first-child{margin:0 0 20px 0;}
+.intro-projet .infos-projet p{display:table-cell; font:400 14px/21px "PT Sans"; color:#090909; letter-spacing:.1em;}
+.intro-projet .infos-projet p.bold{font-weight:700; width:150px;}
+.gallerie img{display:block; margin:50px auto; width:auto; max-width:100%;}
+.gallerie .double{display:flex;}
+.gallerie .double img + img{margin:50px auto 50px 0;}
+
+
+/*****************************/
+/* FOOTER                    */
+/*****************************/
+footer{position:relative; display:flex; background:#fff0f0; height:150px; align-items:center; justify-content:space-between;}
+footer #logo-footer{display:block; margin:0 0 0 3.5714286%; text-decoration:none;}
+footer #logo-footer img{display:block; margin:0 0 10px 0; max-width:100%; height:auto;}
+footer #logo-footer span{font:13px/15px "PT Sans"; color:#4a4949; letter-spacing:.1em;}
+footer .links{display:flex; margin:0 20.714286% 0 0; /* 290 ÷ 1400 */}
+footer .join h1{display:block; margin:0; font:700 14px "PT Sans"; border:none; color:#090909; letter-spacing:.1em;}
+footer .join a{font:400 14px "PT Sans"; color:#090909; letter-spacing:.1em;}
+footer .social{margin:0 0 0 145px;}
+footer .social a{font:700 14px "PT Sans"; text-decoration:none; color:#090909;}
+footer .social a:before{display:inline-block; vertical-align:middle; content:""; background:url('../images/arr-projets.png') no-repeat center; margin-right:10px; width:10px; height:7px; background-size:cover;}
 
 @media screen and (max-width:1100px){
 	/* infos */
