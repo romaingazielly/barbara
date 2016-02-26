@@ -82,7 +82,7 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 /*****************************/
 /* PROJECT                   */
 /*****************************/
-.projets{width:100%; top:140px;}
+.projets{width:100%; padding-top:140px;}
 .projets + footer{background:#e7eeff;}
 .intro-projet{display:flex; justify-content:space-between; background:#e7eeff;}
 .intro-projet .title-projet{display:flex; align-items:flex-start; margin:70px 0 0 0;}
@@ -95,9 +95,14 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 .intro-projet .infos-projet section:first-child{margin:0 0 20px 0;}
 .intro-projet .infos-projet p{display:table-cell; font:400 14px/21px "PT Sans"; color:#090909; letter-spacing:.1em;}
 .intro-projet .infos-projet p.bold{font-weight:700; width:150px;}
-.gallerie img{display:block; margin:50px auto; width:auto; max-width:100%;}
-.gallerie .double{display:flex;}
-.gallerie .double img + img{margin:50px auto 50px 0;}
+.gallerie .solo img{display:block; margin:50px auto; width:92.857143%; /* 1300 ÷ 1400 */ max-width:100%;}
+.gallerie .double{display:flex; width:100%; align-items:flex-start;}
+.gallerie .double img{width:auto; max-width:50%; padding:0 1.7857143% 0 3.5714286%; margin:0 0 3.5714286% 0;}
+.gallerie .double img + img{padding:0 3.5714286% 0 1.7857143%;}
+.gallerie .full{position:relative; display:flex; justify-content:center; align-items:center; width:100%; background:#e7eeff; margin:0 0 3.5714286% 0;}
+.gallerie .full img{margin:0; padding:70px 3.5714286%; width:auto; max-width:100%;}
+.gallerie .full a{position:absolute; bottom:50px; right:50px; color:#090909; text-decoration:none; font:300 30px/55px "Open Sans";}
+.gallerie .full a:after{display:block; content:""; width:100%; height:5px; background:#3653ff; margin:auto;}
 
 
 /*****************************/
