@@ -215,9 +215,20 @@ footer .social a:before{display:inline-block; vertical-align:middle; content:"";
 	.intro-projet .infos-projet{width:100%; padding:12.5% 9.375%;}
 	.intro-projet .infos-projet section{display:flex; flex-direction:column;}
 	.intro-projet .infos-projet section p.bold{margin:0 0 5px 0;}
+	aside{flex-direction:column; margin: 40px 0;}
+	aside .projet-nav{margin:0 0 25px 0;}
+	aside .projet-nav#projet-prev:before, aside .projet-nav#projet-next:before{margin:0 10px 0 0;}
+	aside #projet-top{order:1;}
 
 	/* infos */
 	.infos{background:#fff0f0;}
 	.infos figure img{display:none;}
 	.infos figure figcaption{width:100%; padding:12.5% 9.375%; /* 80px 30px */}
+
+	/* Footer */
+	footer{flex-direction:column; height:auto;}
+	footer #logo-footer{margin:12.5% 0 9.375% 0;}
+	footer .links{margin:0; width:100%; text-align:center; flex-direction:column;}
+	footer .social{margin:9.375% 0 12.5% 0;}
+	footer .social li:first-child{margin:0 0 5px 0;}
 }
