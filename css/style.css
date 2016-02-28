@@ -15,6 +15,7 @@ header #logo span{font:13px/15px "PT Sans"; color:#4a4949; letter-spacing:.1em;}
 /* Burger */
 .burger {position:relative; z-index:10; margin:0 50px 0 0;}
 .burger.btn-open + nav{display:block;}
+.burger.btn-open + nav:after{background:rgba(0,0,0,.5);}
 .burger a {width:38px; height:38px; background:#090909; position:relative; display: block;}
 .btn-burger span {position: absolute; top: 50%; left:50%; display: block; width:47.368421%; /* 18px ÷ 38 */ height: 2px; margin:-1px 0 0 calc(-47.368421% / 2); background-color: #fff; font-size: 0px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -webkit-transition: background-color 0.3s; transition: background-color 0.3s;}
 .btn-open .btn-burger span { background-color: transparent; }
@@ -25,7 +26,8 @@ header #logo span{font:13px/15px "PT Sans"; color:#4a4949; letter-spacing:.1em;}
 .btn-open .btn-burger span:after { -webkit-transform: translateY(0) rotate(-45deg); transform: translateY(0) rotate(-45deg); background:#fff; }
 
 /* Menu */
-nav{display:none; position:fixed; left:0; top:0; bottom:0; padding:140px 0 0 50px; background:#fff; width:46.428571%; /* 650 ÷ 1400 */}
+nav{display:none; position:fixed; left:0; top:0; bottom:0; padding:140px 0 0 50px; background:#fff; overflow:auto; width:46.428571%; /* 650 ÷ 1400 */}
+nav:after{content:""; position:fixed; background:transparent; bottom:0; top:0; left:46.428571%; right:0; transition:background .4s ease-in-out; transition-delay: 2s;}
 nav p{margin:0 0 60px 0;}
 nav p a{font:300 40px/45px "Open Sans"; color:#090909; letter-spacing:4px; text-decoration:none; border-bottom:solid 5px #090909;}
 nav ul {margin:0 0 60px 0; -webkit-column-count: 2; -moz-column-count: 2; column-count: 2;}
@@ -187,7 +189,7 @@ footer .social a:before{display:inline-block; vertical-align:middle; content:"";
 	.btn-burger span:after { -webkit-transform: translateY(250%); transform: translateY(250%);}
 
 	/* Menu */
-	nav{width:100%; padding:110px 30px 50px 30px; overflow:auto;}
+	nav{width:100%; padding:110px 30px 50px 30px;}
 	nav ul{margin-bottom:30px; -webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}
 	nav ul li{margin-bottom:22px;}
 	nav ul li:nth-child(4n){margin-bottom:22px;}
