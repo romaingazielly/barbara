@@ -210,7 +210,7 @@ footer .social a:before{display:inline-block; vertical-align:middle; content:"";
 	/* Projet */
 	.projets{padding-top:90px;}
 	.intro-projet{flex-direction:column;}
-	.intro-projet .title-projet{width:100%; margin:12.5% 9.375% 0; align-items:center;}
+	.intro-projet .title-projet{width:100%; padding:12.5% 9.375% 0; margin:0; align-items:center;}
 	.intro-projet .title-projet h1{font:300 25px/35px "Open Sans";}
 	.intro-projet .infos-projet{width:100%; padding:12.5% 9.375%;}
 	.intro-projet .infos-projet section{display:flex; flex-direction:column;}
