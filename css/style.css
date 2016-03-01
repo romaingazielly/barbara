@@ -1,3 +1,4 @@
+body.noscroll{overflow:hidden;}
 .container{position:relative; /*top:140px;*/}
 
 /*****************************/
@@ -175,6 +176,10 @@ footer .social a:before{display:inline-block; vertical-align:middle; content:"";
 	header .left{width:100%;}
 	header .right{display:none;}
 	.burger{margin:0 50px 0 0;}
+
+	/* Menu */
+	nav{width:100%;}
+	nav:after{display:none;}
 
 	/* Home */
 	.home .projet{flex-wrap:wrap;}
