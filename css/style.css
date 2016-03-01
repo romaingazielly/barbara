@@ -26,8 +26,8 @@ header #logo span{font:13px/15px "PT Sans"; color:#4a4949; letter-spacing:.1em;}
 .btn-open .btn-burger span:after { -webkit-transform: translateY(0) rotate(-45deg); transform: translateY(0) rotate(-45deg); background:#fff; }
 
 /* Menu */
-nav{display:none; position:fixed; left:0; top:0; bottom:0; padding:140px 0 0 50px; background:#fff; overflow:auto; width:46.428571%; /* 650 ÷ 1400 */}
-nav:after{content:""; position:fixed; background:transparent; bottom:0; top:0; left:46.428571%; right:0; transition:background .4s ease-in-out; transition-delay: 2s;}
+nav{display:none; position:fixed; left:0; top:0; bottom:0; padding:140px 0 0 50px; background:#fff; width:46.428571%; /* 650 ÷ 1400 */}
+nav:after{content:""; position:fixed; background:transparent; bottom:0; top:0; left:46.428571%; right:0;}
 nav p{margin:0 0 60px 0;}
 nav p a{font:300 40px/45px "Open Sans"; color:#090909; letter-spacing:4px; text-decoration:none; border-bottom:solid 5px #090909;}
 nav ul {margin:0 0 60px 0; -webkit-column-count: 2; -moz-column-count: 2; column-count: 2;}
@@ -65,9 +65,9 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 /*****************************/
 /* ABOUT                     */
 /*****************************/
-.about h1{font:300 40px/45px "Open Sans"; margin:0 0 35px 0; display:inline-flex; border-bottom:solid 5px #090909;}
 
 .infos{background:#fff0f0;}
+.infos h1{font:300 40px/45px "Open Sans"; margin:0 0 35px 0; display:inline-flex; border-bottom:solid 5px #090909;}
 .infos figure{display:flex; align-items:center;}
 .infos figure img{width:42.428571%; /* 597 ÷ 1400 */}
 .infos figure figcaption{width:57.357143%; /* 803 ÷ 1400  padding:0 170px 0 120px; */ padding:0 12.142857% 0 8.5714286%; font:14px/21px "PT Sans"; color:#090909; letter-spacing:.1em;}
@@ -76,12 +76,28 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 .infos figure figcaption .link:after{position:absolute; right:0; bottom:-3px; content:""; display:block; width:70px; height:5px; background:#090909;}
 .infos figure figcaption .link a{text-decoration:none; color:#090909; font:700 14px "PT Sans";}
 
-.worked{padding:9.375%; /* 30px ÷ 320 */}
-.worked h1{text-decoration:underline; border:none;}
-.worked ul{width:100%; padding:0 0 15.384616% 0; margin:0 0 15.384616% 0; border-bottom:solid 1px #000;}
-.worked li{width:46.153846%; /* 120px ÷ 260 */ display:inline-block; vertical-align:top; background:#f4f4f5; margin:0 7.6923077% 7.6923077% 0; /* 20 ÷ 260 */}
-.worked li:nth-child(even){margin-right:0;}
+.worked{margin:3.5714286% 3.5714286% 0 3.5714286%; /* 30px ÷ 320 */ padding:0 0 7.1428572% 0; display:flex; justify-content:space-between; align-items:center; border-bottom:solid 1px #000;}
+.worked .text{width:285px;}
+.worked .text h1{text-decoration:none; border:none; font:300 40px/55px "Open Sans"; margin:0 0 30px 0; letter-spacing:.1em;}
+.worked .text h1 span{display:inline-block; position:relative;}
+.worked .text h1 span:after{display:block; content:""; width:100%; height:5px; background:#090909; margin:auto;}
+.worked .text p{font:14px/21px "PT Sans"; color:#090909; letter-spacing:.1em;}
+.worked ul{display:flex; flex-wrap:wrap; width:57.5%; padding:0; margin:0;}
+.worked ul li{width:20%; margin:0 20% 0 0;}
+.worked ul li:first-child{margin:0 20% 0 60%;}
+.worked li:nth-child(4){margin:0 0 0 0;}
+.worked li:nth-child(5){margin:0 20% 0 20%;}
 .worked li img{display:block; width:100%;}
+
+.contact{display:flex; justify-content:space-between; align-items:center; margin:6.4285714% 0; /* 90 ÷ 1400 */}
+.contact div{margin:0 0 0 10%; width:43.928571%; /* 615px */}
+.contact img{display:inline-block; vertical-align:top; margin:.81300813% 0 0 0;}
+.contact h1{display:inline-block; vertical-align:top; margin:0 0 0 13.821138%;}
+.contact h1 span{font:300 40px/45px "Open Sans"; display:inline-block; margin:0 0 10px 0; border-bottom:solid 5px #090909; letter-spacing:.1em;}
+.contact h1 a{display:block;}
+.contact #go-top{display:flex; flex-direction:column; width:67px; height:67px; margin:0 10% 0 0; background:#090909; justify-content:center; align-items:center; color:#fff; text-decoration:none; font:700 14px "PT Sans";}
+.contact #go-top:before{content:""; width:7px; height:10px; margin:0 0 5px 0; display:block; background:url('../images/arr-top.png') no-repeat center / cover;}
+.contact #mail{font:24px "Open Sans"; color:#f6d0d0;}
 
 /*****************************/
 /* PROJECT                   */
@@ -131,10 +147,25 @@ footer .social a{font:700 14px "PT Sans"; text-decoration:none; color:#090909;}
 footer .social a:before{display:inline-block; vertical-align:middle; content:""; background:url('../images/arr-next.png') no-repeat center; margin-right:10px; width:10px; height:7px; background-size:cover;}
 
 @media screen and (max-width:1100px){
-	/* infos */
+	/* About */
 	.infos{background:#fff0f0 url('../images/barbara.png') no-repeat left center;}
 	.infos figure img{opacity:0;}
 	.infos figure figcaption{padding-right:80px;}
+
+	.worked{margin:7.1428572% 3.5714286% 3.5714286% 3.5714286%;}
+	.worked .text{width:240px;}
+	.worked .text h1{font:300 27px/40px "Open Sans";}
+	.worked .text h1 span:after{height:4px;}
+	.worked .text p{font:400 12px/18px "PT Sans";}
+	.worked ul{width:363px;}
+	.worked ul li{width:33.333333%; margin:0;}
+	.worked ul li:first-child{margin:0 33.333333% 0 0;}
+	.worked ul li:nth-child(3){margin:0 33.333333%;}
+	.worked li:nth-child(4){margin:0 33.333333% 0 0;}
+	.worked li:nth-child(5){margin:0;}
+	.worked li:nth-child(6){margin:0 0 0 33.333333%;}
+
+
 }
 
 /* Tablette Portrait */
@@ -189,7 +220,7 @@ footer .social a:before{display:inline-block; vertical-align:middle; content:"";
 	.btn-burger span:after { -webkit-transform: translateY(250%); transform: translateY(250%);}
 
 	/* Menu */
-	nav{width:100%; padding:110px 30px 50px 30px;}
+	nav{width:100%; padding:110px 30px 50px 30px; overflow:auto;}
 	nav ul{margin-bottom:30px; -webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}
 	nav ul li{margin-bottom:22px;}
 	nav ul li:nth-child(4n){margin-bottom:22px;}
@@ -208,6 +239,26 @@ footer .social a:before{display:inline-block; vertical-align:middle; content:"";
 	.home .projet-infos a.projet-link{font:700 10px "PT Sans"; padding:0 0 10px 0; margin:0 0 30px 0;}
 	.home .preview{display:none;}
 	.home .nav{height:12.5%; /* 60 ÷ 480 */}
+
+	/* About */
+	.about{padding-top:90px;}
+	.worked{margin:40px 30px 0 30px; flex-direction:column;}
+	.worked .text{width:100%;}
+	.worked p{display:none;}
+	.worked ul{width:260px; justify-content:space-between; margin:0;}
+	.worked ul li{width:43.076923%; margin:0 0 35px 0;}
+	.worked ul li:first-child{margin:0 0 0 0;}
+	.worked ul li:nth-child(3){margin:0 0;}
+	.worked li:nth-child(4){margin:0 0 35px 0;}
+	.worked li:nth-child(5){margin:0 0 0 0;}
+	.worked li:nth-child(6){margin:0 0 0 0;}
+	.contact{flex-direction:column; margin:0;}
+	.contact div{width:100%; text-align:center; margin:30px 0;}
+	.contact img{margin:0 0 0 -17%; width:40%;}
+	.contact h1{display:block; margin:0;}
+	.contact h1 span{font:300 25px "Open Sans"; border-bottom:solid 3px #090909;}
+	.contact a#mail{font:15px "Open Sans";}
+	.contact a#go-top{width:55px; height:55px; margin:0 auto 40px;}
 
 	/* Projet */
 	.projets{padding-top:90px;}
