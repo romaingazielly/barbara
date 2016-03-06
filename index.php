@@ -26,19 +26,23 @@
           <!-- Nav -->
           <div class="burger"><a href="javascript:;" class="btn-burger" menu-button=""><span>Menu</span></a></div>
           <nav>
-            <p><a href="">Projects</a></p>
-            <ul>
-              <li><a href="">Animaux Santé</a></li>
-              <li><a href="">Saupiquet</a></li>
-              <li><a href="">La balle au bond</a></li>
-              <li><a href="">Le Petit Marseillais</a></li>
-              <li><a href="">Auzou éditions</a></li>
-              <li><a href="">Classic Expert</a></li>
-              <li><a href="">L'igloo immobilier</a></li>
-              <li><a href="">Wilkinson Adventure</a></li>
-            </ul>
-            <p><a href="">Moodboards</a></p>
-            <p><a href="/about.html">About</a></p>
+            <div class="vert-center">
+              <div>
+              <p><a href="">Projects</a></p>
+              <ul>
+                <li><a href="">Animaux Santé</a></li>
+                <li><a href="">Saupiquet</a></li>
+                <li><a href="">La balle au bond</a></li>
+                <li><a href="">Le Petit Marseillais</a></li>
+                <li><a href="">Auzou éditions</a></li>
+                <li><a href="">Classic Expert</a></li>
+                <li><a href="">L'igloo immobilier</a></li>
+                <li><a href="">Wilkinson Adventure</a></li>
+              </ul>
+              <p><a href="">Moodboards</a></p>
+              <p><a href="/about.html">About</a></p>
+              </div>
+            </div>
           </nav>
         </div>
         <div class="right">

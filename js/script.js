@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
 		compteur++;
 
 		//Provisoire
-		if(compteur == 4) compteur=1;
+		if(compteur >= 4) compteur=1;
 
 		sliderHome(compteur);
 	});
@@ -35,9 +35,32 @@ jQuery(document).ready(function($) {
 		compteur--;
 
 		//Provisoire
-		if(compteur == 0) compteur=4;
+		if(compteur <= 0) compteur=4;
 
 		sliderHome(compteur);
+	});
+
+	// Changement de projet au scroll (beta)
+	var isScrolling;
+	$('.projet').on('mousewheel', function(event) {
+		if (isScrolling == true) return;
+
+	    if (event.originalEvent.wheelDelta >= 0) {
+	        $('a#prev-projet').trigger('click');
+	    }
+	    else {
+	        $('a#next-projet').trigger('click');
+	    }
+
+	    isScrolling = true;
+
+	    console.log(event.originalEvent.wheelDelta, isScrolling)
+
+	    
+
+	    window.setTimeout(function () {
+	    	isScrolling = false;
+	    }, 1000);
 	});
 });
 
