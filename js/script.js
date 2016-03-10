@@ -41,27 +41,30 @@ jQuery(document).ready(function($) {
 	});
 
 	// Changement de projet au scroll (beta)
-	var isScrolling;
-	$('.projet').on('mousewheel', function(event) {
-		if (isScrolling == true) return;
+	// var isScrolling;
+	// $('.projet').on('mousewheel', function(event) {
+	// 	if (isScrolling == true) return;
 
-	    if (event.originalEvent.wheelDelta >= 0) {
-	        $('a#prev-projet').trigger('click');
-	    }
-	    else {
-	        $('a#next-projet').trigger('click');
-	    }
+	//     if (event.originalEvent.wheelDelta >= 0) {
+	//         $('a#prev-projet').trigger('click');
+	//     }
+	//     else {
+	//         $('a#next-projet').trigger('click');
+	//     }
 
-	    isScrolling = true;
+	//     isScrolling = true;
 
-	    console.log(event.originalEvent.wheelDelta, isScrolling)
+	//     console.log(event.originalEvent.wheelDelta, isScrolling)
 
 	    
 
-	    window.setTimeout(function () {
-	    	isScrolling = false;
-	    }, 1000);
-	});
+	//     window.setTimeout(function () {
+	//     	isScrolling = false;
+	//     }, 1000);
+	// });
+
+
+	headerSmall();
 });
 
 function resizeHome() {
@@ -77,18 +80,27 @@ function resizeHome() {
 }
 
 function sliderHome(compteur){
-	var id = compteur;
-	$.getJSON( "projets/projet-"+id+".json", function(data){
-		console.log(id);
-		$("#miniature-projet").attr('src', "images/projets/projet-"+ data.id +"-mini.png"); // Miniature
-		$('#titre-projet').html("<span>"+data.projet+"</span>"); // Titre
-		$('.preview figure').css("background", "url(../images/projets/projet-"+data.id+"-big.jpg) center center / cover"); // Preview
-		$('#num-projet').html(data.id); // Numérotation
+	var num = compteur;
+	$.getJSON( "projets.json", function(data){
+		console.log(num);
+		$('.home .projet').attr('id', data.projets[num].id);
+		$("#miniature-projet").attr('src', "images/projets/"+ data.projets[num].id +"-mini.png"); // Miniature
+		$("#miniature-projet").attr('srcset', "images/projets/"+ data.projets[num].id +"-mini-x2.png x2"); // Miniature x2
+		$('#titre-projet').html(data.projets[num].title); // Titre
+		$('#subtitle-projet').html(data.projets[num].subtitle);
+		$('#num-projet').html(num); // Numérotation
 	})
 	.done(function(){
 		console.log('done!')
 	})
 	.fail(function(){
 		console.log('fail: ')
+	});
+}
+
+function headerSmall(){
+	$('.projets').on('mousewheel', function(event) {
+		var t = $(this).scrollTop(70);
+		console.log(t)
 	});
 }

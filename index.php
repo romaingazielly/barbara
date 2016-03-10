@@ -32,9 +32,9 @@
               <ul>
                 <li><a href="">Animaux Santé</a></li>
                 <li><a href="">Saupiquet</a></li>
-                <li><a href="">La balle au bond</a></li>
+                <li><a href="projet.html">La balle au bond</a></li>
                 <li><a href="">Le Petit Marseillais</a></li>
-                <li><a href="">Auzou éditions</a></li>
+                <li><a href="projet-2.html">Auzou éditions</a></li>
                 <li><a href="">Classic Expert</a></li>
                 <li><a href="">L'igloo immobilier</a></li>
                 <li><a href="">Wilkinson Adventure</a></li>
@@ -51,12 +51,12 @@
       </header>
 
       <section class="container home">
-        <article class="projet">
+        <article class="projet" id="balle-au-bond">
           <section class="projet-infos">
             <div class="resume">
-              <img id="miniature-projet" src="images/projets/projet-1-mini.png">
+              <img id="miniature-projet" src="images/projets/balle-au-bond-mini.png" srcset="images/projets/balle-au-bond-mini-x2.png 2x">
               <h1 id="titre-projet"><span>La balle</span><br/><span>au bond</span></h1>
-              <p class="legend">A jolly universe for an alternative place</p>
+              <p id="subtitle-projet" class="legend">Off & online branding</p>
             </div>
             <a class="projet-link" href="/projet.html">View project</a>
           </section>
@@ -74,8 +74,8 @@
           <!-- Fin Nav Projet -->
 
           <section class="preview">
-            <figure style="background:url('../images/projets/projet-1-big.jpg') left center / cover no-repeat;">
-              <img src="images/projets/projet-2.jpg">
+            <figure>
+              <img src="images/image.png">
               <figcaption></figcaption>
             </figure>
 
@@ -84,7 +84,7 @@
       </section>
 
     </body>
-    <script src="js/libs/jquery-2.2.0.min.js"></script>
+    <script src="js/libs/jquery-2.2.1.min.js"></script>
     <script src="js/libs/gsap/TweenLite.min.js"></script>
     <script src="js/libs/gsap/plugins/CSSPlugin.min.js"></script>
     <script src="js/libs/gsap/plugins/ScrollToPlugin.min.js"></script>

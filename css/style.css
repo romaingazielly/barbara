@@ -1,3 +1,45 @@
+/*****************************/
+/* FONTS                     */
+/*****************************/
+@font-face {
+  font-family: 'LibreBaskerville-Bold';
+  src: url('../fonts/LibreBaskerville-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/LibreBaskerville-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/LibreBaskerville-Bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/LibreBaskerville-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/LibreBaskerville-Bold.svg#4bf32f863730e66a8dbae8dbd91656ec') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'LibreBaskerville-Italic';
+  src: url('../fonts/LibreBaskerville-Italic.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/LibreBaskerville-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/LibreBaskerville-Italic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/LibreBaskerville-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/LibreBaskerville-Italic.svg#86a751033e5e24fb6db05549d86ed96e') format('svg'); /* Legacy iOS */
+       
+  font-style:   italic;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'LibreBaskerville-Regular';
+  src: url('../fonts/LibreBaskerville-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/LibreBaskerville-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/LibreBaskerville-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/LibreBaskerville-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/LibreBaskerville-Regular.svg#4355149723c66552092252d98830bbee') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+/*****************************/
+/* GLOBAL                    */
+/*****************************/
 body.noscroll{overflow:hidden;}
 .container{position:relative; /*top:140px;*/}
 
@@ -48,14 +90,15 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 /*****************************/
 .home{}
 .home .projet{display:flex; width:100%; height:100%;}
-.home .projet-infos{width:46.428571%; /* 650 ÷ 1400 */ display:flex; flex-direction:column; align-items:center; justify-content:space-around; background:#e9efff;}
+.home .projet-infos{width:46.428571%; /* 650 ÷ 1400 */ display:flex; flex-direction:column; align-items:center; justify-content:space-around; background:#6fa2ff;}
 .home .projet-infos img{display:block; margin:30.952381% auto 35px; /* 260 ÷ 840 */}
-.home .projet-infos h1{display:block; font:300 60px/72px "Open Sans"; color:#000; margin:0 auto 35px; text-align: center;}
-.home .projet-infos h1 span{display:inline-block; position:relative;}
-.home .projet-infos h1 span:after{display:block; content:""; width:100%; height:5px; background:#3653ff; margin:auto;}
-.home .projet-infos p.legend{font:14px "PT Sans"; text-align:center; color:#4a4949;}
-.home .projet-infos a.projet-link{position:relative; width:58.461538%; /* 380 ÷ 650 */ text-align:center; text-decoration:none; font:700 14px "PT Sans"; color:#4a4949; border-bottom:solid 1px #000; padding:15px 0;}
-.home .projet-infos a.projet-link:after{content:""; display:block; position:absolute; left:50%; bottom:-3px; margin:0 0 0 -45px; width:90px; height:5px; background:#3653ff;}
+.home .projet-infos h1{display:block;font: 300 60px/62px "LibreBaskerville-Regular"; color:#000; margin:0 auto 35px; text-align: center; letter-spacing:.05em;}
+.home .projet-infos h1 span{display:inline-block; position:relative;margin: 0 0 15px 0;}
+.home .projet-infos h1 span:last-child{margin:0;}
+.home .projet-infos h1 span:after{position:relative; display:block; content:""; width:100%; height:5px; background:#3653ff; margin:auto; z-index:2;}
+.home .projet-infos p.legend{font:17px "LibreBaskerville-Italic"; text-align:center; color:#090909; letter-spacing:.1em;}
+.home .projet-infos a.projet-link{position:relative; width:58.461538%; /* 380 ÷ 650 */ text-align:center; text-decoration:none; font:700 14px "PT Sans"; color:#090909; border-bottom:solid 1px #000; padding:15px 0; letter-spacing:.1em;}
+.home .projet-infos a.projet-link:after{content:""; display:block; position:absolute; left:50%; bottom:-3px; margin:0 0 0 -45px; width:90px; height:5px; background:#090909;}
 .home .nav{width:7.1428571%; /* 100 ÷ 1400 */ background:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center;}
 .home .nav .num{margin:auto;}
 .home .nav a{display:block; width:7px; height:10px;}
@@ -67,7 +110,26 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 .home .preview{display:flex; width:46.428571%; /* 650 ÷ 1400 */ background:#fff;}
 .home .preview figure{position:relative; display:block; width:100%; /* 600 ÷ 650 */ margin:7.692308% 7.692308% 7.692308% 0;}
 .home .preview figure img{display:block; width:auto; max-width:100%; opacity:0}
-.home .preview figure figcaption{position:absolute; border:solid 5px #3653ff; height:92%; width:90%; top:4%; left:5%; pointer-events:none;}
+.home .preview figure figcaption{position:absolute; border:solid 5px #6fa2ff; height:92%; width:90%; top:4%; left:5%; pointer-events:none;}
+/* Themes */
+.home .projet#balle-au-bond .preview figure{background:url('../images/projets/balle-au-bond-big.jpg') left center / cover no-repeat;}
+.home .projet#balle-au-bond .projet-infos{background:#6fa2ff;}
+.home .projet#balle-au-bond .projet-infos h1 span:after{background:#3653ff;}
+.home .projet#balle-au-bond .preview figure figcaption{border-color:#6fa2ff;}
+.home .projet#saupiquet .preview figure{background:url('../images/projets/saupiquet-big.jpg') left center / cover no-repeat;}
+.home .projet#saupiquet .projet-infos{background:#c1ff8f;}
+.home .projet#saupiquet .projet-infos h1 span:after{background:#47e409;}
+.home .projet#saupiquet .preview figure figcaption{border-color:#c1ff8f;}
+.home .projet#animaux-sante .preview figure{background:url('../images/projets/animaux-sante-big.jpg') left center / cover no-repeat;}
+.home .projet#animaux-sante .projet-infos{background:#8bf4d4;}
+.home .projet#animaux-sante .projet-infos h1 span:after{background:#02dca6;}
+.home .projet#animaux-sante .preview figure figcaption{border-color:#8bf4d4;}
+.home .projet#le-petit-marseillais .preview figure{background:url('../images/projets/le-petit-marseillais-big.jpg') left center / cover no-repeat;}
+.home .projet#le-petit-marseillais .projet-infos{background:#fde7d6;}
+.home .projet#le-petit-marseillais .projet-infos h1 span:after{background:#fe0036;}
+.home .projet#le-petit-marseillais .preview figure figcaption{border-color:#fde7d6;}
+
+
 
 /*****************************/
 /* ABOUT                     */
@@ -140,6 +202,12 @@ aside .projet-nav#projet-prev{text-align:right;}
 aside .projet-nav#projet-prev:before{content:""; display:inline-block; margin:0 15px 0 0; width:10px; height:7px; background:url('../images/arr-prev.png') no-repeat center / cover;}
 aside .projet-nav#projet-next:before{content:""; display:inline-block; margin:0 15px 0 0; width:10px; height:7px; background:url('../images/arr-next.png') no-repeat center / cover;}
 aside .projet-nav .projet-name{display:block; font-weight:400;}
+/* Themes */
+.projets.auzou + footer{background:#fcf0ff;}
+.projets.auzou .intro-projet{background:#fcf0ff;}
+.projets.auzou .intro-projet .title-projet h1 span:after{background:#b767cb;}
+.projets.auzou .gallerie .full a:after{background:#b767cb;}
+.projets.auzou .gallerie .full{background:#fcf0ff;}
 
 /*****************************/
 /* FOOTER                    */
