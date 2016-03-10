@@ -120,7 +120,7 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 .home .projet#saupiquet .projet-infos{background:#c1ff8f;}
 .home .projet#saupiquet .projet-infos h1 span:after{background:#47e409;}
 .home .projet#saupiquet .preview figure figcaption{border-color:#c1ff8f;}
-.home .projet#animaux-sante .preview figure{background:url('../images/projets/animaux-sante-big.jpg') left center / cover no-repeat;}
+.home .projet#animaux-sante .preview figure{background:url('../images/projets/animaux-sante-big.jpg') center center / cover no-repeat;}
 .home .projet#animaux-sante .projet-infos{background:#8bf4d4;}
 .home .projet#animaux-sante .projet-infos h1 span:after{background:#02dca6;}
 .home .projet#animaux-sante .preview figure figcaption{border-color:#8bf4d4;}
