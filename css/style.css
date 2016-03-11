@@ -101,9 +101,10 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 .home .projet-infos a.projet-link:after{content:""; display:block; position:absolute; left:50%; bottom:-3px; margin:0 0 0 -45px; width:90px; height:5px; background:#090909;}
 .home .nav{width:7.1428571%; /* 100 ÷ 1400 */ background:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center;}
 .home .nav .num{margin:auto;}
-.home .nav a{display:block; width:7px; height:10px;}
-.home .nav a#prev-projet{background:url('../images/arr-up.png') no-repeat center / cover; margin-top:200px;}
-.home .nav a#next-projet{background:url('../images/arr-down.png') no-repeat center / cover; margin-bottom:200px;}
+.home .nav a{padding:20px;}
+.home .nav a span{display:block; width:7px; height:10px;}
+.home .nav a#prev-projet span{background:url('../images/arr-up.png') no-repeat center / cover; margin-top:200px;}
+.home .nav a#next-projet span{background:url('../images/arr-down.png') no-repeat center / cover; margin-bottom:200px;}
 .home .nav hr{height:0px; border-top:solid 1px #c5c6c8; border-bottom:solid 1px #bbbdbf;}
 .home .nav .num span{font:14px "Open Sans"; color:#2d3339;}
 .home .nav .num span#num-projet{font-weight:900;}
@@ -128,6 +129,22 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 .home .projet#le-petit-marseillais .projet-infos{background:#fde7d6;}
 .home .projet#le-petit-marseillais .projet-infos h1 span:after{background:#fe0036;}
 .home .projet#le-petit-marseillais .preview figure figcaption{border-color:#fde7d6;}
+.home .projet#igloo .preview figure{background:url('../images/projets/igloo-big.jpg') center center / cover no-repeat;}
+.home .projet#igloo .projet-infos{background:#12e6e1;}
+.home .projet#igloo .projet-infos h1 span:after{background:#007976;}
+.home .projet#igloo .preview figure figcaption{border-color:#12e6e1;}
+.home .projet#wilkinson-summer .preview figure{background:url('../images/projets/wilkinson-summer-big.jpg') center center / cover no-repeat;}
+.home .projet#wilkinson-summer .projet-infos{background:#e0fe69;}
+.home .projet#wilkinson-summer .projet-infos h1 span:after{background:#0b9088;}
+.home .projet#wilkinson-summer .preview figure figcaption{border-color:#e0fe69;}
+.home .projet#auzou .preview figure{background:url('../images/projets/auzou-big.jpg') center center / cover no-repeat;}
+.home .projet#auzou .projet-infos{background:#e9c6ff;}
+.home .projet#auzou .projet-infos h1 span:after{background:#9336ee;}
+.home .projet#auzou .preview figure figcaption{border-color:#e9c6ff;}
+.home .projet#classic-expert .preview figure{background:url('../images/projets/classic-expert-big.jpg') center center / cover no-repeat;}
+.home .projet#classic-expert .projet-infos{background:#fee7b9;}
+.home .projet#classic-expert .projet-infos h1 span:after{background:#c7874d;}
+.home .projet#classic-expert .preview figure figcaption{border-color:#fee7b9;}
 
 
 

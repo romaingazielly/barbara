@@ -63,13 +63,13 @@
 
           <!-- Nav Projet -->
           <div class="nav">
-            <a id="prev-projet" href="javascript:;" title="Previous"></a>
+            <a id="prev-projet" href="javascript:;" title="Previous"><span></span></a>
             <div class="num">
               <span id="num-projet">1</span>
               <hr/>
               <span id="total-projet">9</span>
             </div>
-            <a id="next-projet" href="javascript:;" title="Next"></a>
+            <a id="next-projet" href="javascript:;" title="Next"><span></span></a>
           </div>
           <!-- Fin Nav Projet -->
 

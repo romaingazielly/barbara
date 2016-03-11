@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
 		compteur++;
 
 		//Provisoire
-		if(compteur >= 4) compteur=1;
+		if(compteur > 7) compteur=1;
 
 		sliderHome(compteur);
 	});
@@ -35,7 +35,7 @@ jQuery(document).ready(function($) {
 		compteur--;
 
 		//Provisoire
-		if(compteur <= 0) compteur=4;
+		if(compteur < 1) compteur=7;
 
 		sliderHome(compteur);
 	});
