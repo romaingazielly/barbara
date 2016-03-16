@@ -5,71 +5,85 @@ var $window = $(window),
 
 jQuery(document).ready(function($) {
 
-	// Home Json
-	$.getJSON( "projets.json", function(data){
-		dataHome = data;
-		//$('#total-projet').html(data.projets.length); //si loader
-	});
+	if( $('.container').hasClass('home') ){
+		// Json
+		$.getJSON( "projets.json", function(data){
+			dataHome = data;
+			//$('#total-projet').html(data.projets.length); //si loader
+		});
 
-	// Windows
-	// Attention s'effectue également sur Tablette et Mobile
-	resizeHome();
-	$(window).resize(function(){ 
+		// Windows
+		// Attention s'effectue également sur Tablette et Mobile
 		resizeHome();
-	}); 
+		$(window).resize(function(){ 
+			resizeHome();
+		});
 
+		// Slider projet Home
+		var compteur = 1;
+		$('a#next-projet').on('click', function(event) {
+			event.preventDefault();
+			compteur++;
+
+			//Provisoire
+			if(compteur > 8) compteur=1;
+
+			sliderHome(compteur);
+		});
+
+		$('a#prev-projet').on('click', function(event) {
+			event.preventDefault();
+			compteur--;
+
+			//Provisoire
+			if(compteur < 1) compteur=8;
+
+			sliderHome(compteur);
+		});
+
+		// Changement de projet au scroll (beta)
+		var isScrolling;
+		$('.projet').on('mousewheel', function(event) {
+			if (isScrolling == true) return;
+
+		    if (event.originalEvent.wheelDelta >= 0) {
+		        $('a#prev-projet').trigger('click');
+		    }
+		    else {
+		        $('a#next-projet').trigger('click');
+		    }
+
+		    isScrolling = true;
+
+		    console.log(event.originalEvent.wheelDelta, isScrolling)
+
+		    
+
+		    window.setTimeout(function () {
+		    	isScrolling = false;
+		    }, 1000);
+		});
+
+		// Changement du projet au clavier
+		$(document).keydown(function(e) {
+			switch(e.which) {
+		        case 38: $('a#prev-projet').trigger('click'); // up
+		        break;
+
+		        case 40: $('a#next-projet').trigger('click'); // down
+		        break;
+
+		        default: return;
+		    }
+		    e.preventDefault();
+		});
+	}
 
 	// Burger
 	$('.burger').on('click', function(){
 		$('.sub-head').toggleClass('btn-open');
 		$('body').toggleClass('noscroll');
 	});
-
-	// Slider projet Home
-	var compteur = 1;
-	$('a#next-projet').on('click', function(event) {
-		event.preventDefault();
-		compteur++;
-
-		//Provisoire
-		if(compteur > 8) compteur=1;
-
-		sliderHome(compteur);
-	});
-
-	$('a#prev-projet').on('click', function(event) {
-		event.preventDefault();
-		compteur--;
-
-		//Provisoire
-		if(compteur < 1) compteur=8;
-
-		sliderHome(compteur);
-	});
-
-	// Changement de projet au scroll (beta)
-	var isScrolling;
-	$('.projet').on('mousewheel', function(event) {
-		if (isScrolling == true) return;
-
-	    if (event.originalEvent.wheelDelta >= 0) {
-	        $('a#prev-projet').trigger('click');
-	    }
-	    else {
-	        $('a#next-projet').trigger('click');
-	    }
-
-	    isScrolling = true;
-
-	    console.log(event.originalEvent.wheelDelta, isScrolling)
-
-	    
-
-	    window.setTimeout(function () {
-	    	isScrolling = false;
-	    }, 1000);
-	});
-
 
 	headerSmall();
 });
