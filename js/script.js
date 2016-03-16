@@ -1,8 +1,15 @@
 var $window = $(window),
 	$h = $window.height(),
-	$w = $window.width();
+	$w = $window.width(),
+	dataHome;
 
 jQuery(document).ready(function($) {
+
+	// Home Json
+	$.getJSON( "projets.json", function(data){
+		dataHome = data;
+		//$('#total-projet').html(data.projets.length); //si loader
+	});
 
 	// Windows
 	// Attention s'effectue également sur Tablette et Mobile
@@ -25,7 +32,7 @@ jQuery(document).ready(function($) {
 		compteur++;
 
 		//Provisoire
-		if(compteur > 7) compteur=1;
+		if(compteur > 8) compteur=1;
 
 		sliderHome(compteur);
 	});
@@ -35,33 +42,33 @@ jQuery(document).ready(function($) {
 		compteur--;
 
 		//Provisoire
-		if(compteur < 1) compteur=7;
+		if(compteur < 1) compteur=8;
 
 		sliderHome(compteur);
 	});
 
 	// Changement de projet au scroll (beta)
-	// var isScrolling;
-	// $('.projet').on('mousewheel', function(event) {
-	// 	if (isScrolling == true) return;
+	var isScrolling;
+	$('.projet').on('mousewheel', function(event) {
+		if (isScrolling == true) return;
 
-	//     if (event.originalEvent.wheelDelta >= 0) {
-	//         $('a#prev-projet').trigger('click');
-	//     }
-	//     else {
-	//         $('a#next-projet').trigger('click');
-	//     }
+	    if (event.originalEvent.wheelDelta >= 0) {
+	        $('a#prev-projet').trigger('click');
+	    }
+	    else {
+	        $('a#next-projet').trigger('click');
+	    }
 
-	//     isScrolling = true;
+	    isScrolling = true;
 
-	//     console.log(event.originalEvent.wheelDelta, isScrolling)
+	    console.log(event.originalEvent.wheelDelta, isScrolling)
 
 	    
 
-	//     window.setTimeout(function () {
-	//     	isScrolling = false;
-	//     }, 1000);
-	// });
+	    window.setTimeout(function () {
+	    	isScrolling = false;
+	    }, 1000);
+	});
 
 
 	headerSmall();
@@ -81,13 +88,14 @@ function resizeHome() {
 
 function sliderHome(compteur){
 	var num = compteur;
+	var index = num-1;
 	$.getJSON( "projets.json", function(data){
 		console.log(num);
-		$('.home .projet').attr('id', data.projets[num].id);
-		$("#miniature-projet").attr('src', "images/projets/"+ data.projets[num].id +"-mini.png"); // Miniature
-		$("#miniature-projet").attr('srcset', "images/projets/"+ data.projets[num].id +"-mini-x2.png x2"); // Miniature x2
-		$('#titre-projet').html(data.projets[num].title); // Titre
-		$('#subtitle-projet').html(data.projets[num].subtitle);
+		$('.home .projet').attr('id', data.projets[index].id);
+		$("#miniature-projet").attr('src', "images/projets/"+ data.projets[index].id +"-mini.png"); // Miniature
+		$("#miniature-projet").attr('srcset', "images/projets/"+ data.projets[index].id +"-mini-x2.png x2"); // Miniature x2
+		$('#titre-projet').html(data.projets[index].title); // Titre
+		$('#subtitle-projet').html(data.projets[index].subtitle);
 		$('#num-projet').html(num); // Numérotation
 	})
 	.done(function(){
