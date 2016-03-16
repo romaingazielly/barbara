@@ -17,14 +17,17 @@
     <body>
       <header>
         <div class="left">
-          <!-- Logo -->
-          <a href="/" id="logo" title="Barbara Sevin">
-            <img src="images/logo.png" alt="Barbara Sevin" width="144" height="19" srcset="images/logo-x2.png 2x">
-            <span>Branding & Digital ideas</span>
-          </a>
 
-          <!-- Nav -->
-          <div class="burger"><a href="javascript:;" class="btn-burger" menu-button=""><span>Menu</span></a></div>
+          <div class="sub-head">
+            <!-- Logo -->
+            <a href="/" id="logo" title="Barbara Sevin">
+              <img src="images/logo.png" alt="Barbara Sevin" width="144" height="19" srcset="images/logo-x2.png 2x">
+              <span>Branding & Digital ideas</span>
+            </a>
+
+            <!-- Nav -->
+            <div class="burger"><a href="javascript:;" class="btn-burger" menu-button=""><span>Menu</span></a></div>
+          </div>
           <nav>
             <div class="vert-center">
               <div>
@@ -74,12 +77,11 @@
           <!-- Fin Nav Projet -->
 
           <section class="preview">
-            <figure>
-              <img src="images/image.png">
-              <figcaption></figcaption>
-            </figure>
-
+            <div class="pic">
+              <div class="border"></div>
+            </div>
           </section>
+
         </article>
       </section>
 

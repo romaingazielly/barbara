@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
 
 	// Burger
 	$('.burger').on('click', function(){
-		$('.burger').toggleClass('btn-open');
+		$('.sub-head').toggleClass('btn-open');
 		$('body').toggleClass('noscroll');
 	});
 
