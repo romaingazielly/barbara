@@ -313,6 +313,7 @@ footer .social a:before{display:inline-block; vertical-align:middle; content:"";
   .home .projet-infos h1 span:after{height:4px; top:-2px;}
 	.home .projet-infos a.projet-link{margin:0 0 40px 0;}
 	.home .nav{margin:0 auto; height:84px; width:auto; flex-direction:row;}
+  .home .nav a{height:auto;}
 	.home .nav a#prev-projet span{margin-top:0; margin-right:20px;}
 	.home .nav a#next-projet span{margin-bottom:0; margin-left:20px;}
 	.home .preview{width:100%; height:450px;}
