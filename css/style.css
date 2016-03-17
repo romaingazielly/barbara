@@ -261,6 +261,7 @@ footer .social a:before{display:inline-block; vertical-align:middle; content:"";
 /* Retina */
 @media screen and (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) { 
   /* Home */
+  .home .projet#balle-au-bond .preview .pic:after{background:url('../images/projets/balle-au-bond-big-hover-x2.jpg') left center / cover no-repeat;}
   .home .projet#saupiquet .preview .pic:after{background:url('../images/projets/saupiquet-big-hover-x2.jpg') left center / cover no-repeat;}
   .home .projet#animaux-sante .preview .pic:after{background:url('../images/projets/animaux-sante-big-hover-x2.jpg') left center / cover no-repeat;}
   .home .projet#le-petit-marseillais .preview .pic:after{background:url('../images/projets/le-petit-marseillais-big-hover-x2.jpg') left center / cover no-repeat;}
