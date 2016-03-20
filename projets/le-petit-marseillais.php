@@ -6,20 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio de Barbara Sevin">
         <title>Barbara Sevin - Portfolio 2016</title>
-        <link href="images/icons/favicon.ico" rel="shortcut icon">
-        <link href="images/icons/touch.png" rel="apple-touch-icon-precomposed">
-        <link rel="stylesheet" href="css/reset.css">
+        <link href="/images/icons/favicon.ico" rel="shortcut icon">
+        <link href="/images/icons/touch.png" rel="apple-touch-icon-precomposed">
+        <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,800">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
     </head>
 
     <body>
-      <header class="small">
+      <header class="color">
         <div class="left">
           <!-- Logo -->
           <a href="/" id="logo" title="Barbara Sevin">
-            <img src="images/logo.png" alt="Barbara Sevin" width="144" height="19" srcset="images/logo-x2.png 2x">
+            <img src="/images/logo.png" alt="Barbara Sevin" width="144" height="19" srcset="images/logo-x2.png 2x">
             <span>Branding & Digital ideas</span>
           </a>
 
@@ -51,11 +51,11 @@
         </div>
       </header>
 
-      <section class="container projets">
+      <section class="container projets classic-expert">
 
         <article class="intro-projet">
           <div class="title-projet">
-            <img src="images/projets/balle-au-bond-mini.png"><h1><span>La balle</span><br/><span>au bond</span></h1>
+            <img src="/images/projets/le-petit-marseillais-mini.png"><h1><span>Le Petit</span><br/><span>Marseillais</span></h1>
           </div>
 
           <div class="infos-projet">
@@ -77,29 +77,7 @@
         </article>
 
         <article class="gallerie">
-          <section class="solo">
-            <img src="images/projets/balle-au-bond-cover.jpg">
-          </section>
-
-          <section class="full">
-            <img src="images/projets/balle-au-bond-full.jpg">
-            <a href="#">Website</a>
-          </section>
-          
-          <section class="double">
-            <img src="images/projets/balle-au-bond-double-2.jpg">
-            <img src="images/projets/balle-au-bond-double-1.jpg">
-          </section>
-
-          <section class="full nomarg">
-            <img src="images/projets/balle-au-bond-full-2.jpg">
-            <a href="#">Website</a>
-          </section>
-          
-          <section class="double">
-            <img src="images/projets/balle-au-bond-double-3.jpg">
-            <img src="images/projets/balle-au-bond-double-4.jpg">
-          </section>
+         
 
         </article>
 
@@ -120,7 +98,7 @@
       <footer>
         <!-- Logo -->
         <a href="/" id="logo-footer" title="Barbara Sevin">
-          <img src="images/logo.png" alt="Barbara Sevin" width="144" height="19" srcset="images/logo-x2.png 2x">
+          <img src="/images/logo-reverse.png" alt="Barbara Sevin" width="144" height="19" srcset="images/logo-reverse-x2.png 2x">
           <span>Branding & Digital ideas</span>
         </a>
 
@@ -138,11 +116,11 @@
       </footer>
 
     </body>
-    <script src="js/libs/jquery-2.2.1.min.js"></script>
-    <script src="js/libs/gsap/TweenLite.min.js"></script>
-    <script src="js/libs/gsap/plugins/CSSPlugin.min.js"></script>
-    <script src="js/libs/gsap/plugins/ScrollToPlugin.min.js"></script>
-    <script src="js/libs/gsap/plugins/EasePack.min.js"></script>
+    <script src="/js/libs/jquery-2.2.1.min.js"></script>
+    <script src="/js/libs/gsap/TweenLite.min.js"></script>
+    <script src="/js/libs/gsap/plugins/CSSPlugin.min.js"></script>
+    <script src="/js/libs/gsap/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/libs/gsap/plugins/EasePack.min.js"></script>
 
-    <script src="js/script.js"></script>
+    <script src="/js/script.js"></script>
 </html>

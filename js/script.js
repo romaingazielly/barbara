@@ -86,6 +86,19 @@ jQuery(document).ready(function($) {
 	});
 
 	headerSmall();
+
+	// Projets
+	if( $('.container').hasClass('projets') ){
+
+		$('#projet-top').on('click', function(event) {
+			event.preventDefault();
+			TweenLite.to(window, 2, {scrollTo:{y:0}, ease:Power2.easeOut});
+		});
+
+		$(document).scroll(function() {
+			headerSmall();
+		});
+	}
 });
 
 function resizeHome() {
@@ -106,11 +119,12 @@ function sliderHome(compteur){
 	$.getJSON( "projets.json", function(data){
 		console.log(num);
 		$('.home .projet').attr('id', data.projets[index].id);
-		$("#miniature-projet").attr('src', "images/projets/"+ data.projets[index].id +"-mini.png"); // Miniature
-		$("#miniature-projet").attr('srcset', "images/projets/"+ data.projets[index].id +"-mini-x2.png x2"); // Miniature x2
+		$("#miniature-projet").attr('src', '/images/projets/'+ data.projets[index].id +'-mini.png'); // Miniature
+		$("#miniature-projet").attr('srcset', '/images/projets/'+ data.projets[index].id +'-mini-x2.png x2'); // Miniature x2
 		$('#titre-projet').html(data.projets[index].title); // Titre
 		$('#subtitle-projet').html(data.projets[index].subtitle);
 		$('#num-projet').html(num); // Numérotation
+		$('.projet-link').attr('href', '/projets/'+ data.projets[index].id +'.php');
 	})
 	.done(function(){
 		console.log('done!')
@@ -121,8 +135,12 @@ function sliderHome(compteur){
 }
 
 function headerSmall(){
-	$('.projets').on('mousewheel', function(event) {
-		var t = $(this).scrollTop(70);
-		console.log(t)
-	});
+	var docScroll = $(document).scrollTop();
+	
+	if(docScroll > 70){
+		$('header').addClass('small');
+	}
+	else{
+		$('header').removeClass('small');
+	}
 }
