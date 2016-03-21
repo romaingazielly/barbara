@@ -5,6 +5,7 @@ var $window = $(window),
 
 jQuery(document).ready(function($) {
 
+	// Home
 	if( $('.container').hasClass('home') ){
 		// Json
 		$.getJSON( "projets.json", function(data){
@@ -79,16 +80,9 @@ jQuery(document).ready(function($) {
 		});
 	}
 
-	// Burger
-	$('.burger').on('click', function(){
-		$('.sub-head').toggleClass('btn-open');
-		$('body').toggleClass('noscroll');
-	});
-
-	headerSmall();
-
 	// Projets
 	if( $('.container').hasClass('projets') ){
+
 
 		$('#projet-top').on('click', function(event) {
 			event.preventDefault();
@@ -99,6 +93,15 @@ jQuery(document).ready(function($) {
 			headerSmall();
 		});
 	}
+
+	
+	// Burger
+	$('.burger').on('click', function(){
+		$('.sub-head').toggleClass('btn-open');
+		$('body').toggleClass('noscroll');
+	});
+
+	headerSmall();
 });
 
 function resizeHome() {
@@ -143,4 +146,15 @@ function headerSmall(){
 	else{
 		$('header').removeClass('small');
 	}
+}
+
+function setCookie(key, value) {
+    var expires = new Date();
+    expires.setTime(expires.getTime() + (1 * 24 * 60 * 60 * 1000)); // 24h
+    document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+}
+
+function getCookie(key) {
+    var keyValue = document.cookie.match('(^|;) ?' + key + '=([^;]*)(;|$)');
+    return keyValue ? keyValue[2] : null;
 }

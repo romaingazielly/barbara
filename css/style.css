@@ -370,10 +370,11 @@ footer .social a:before{display:inline-block; vertical-align:middle; content:"";
 	header #logo span{font:10px/10px "PT Sans";}
 
 	/* Burger */
-	.burger{margin:auto 30px auto 0;}
-	.burger a{width:30px; height:30px;}
-	.btn-burger span:before { -webkit-transform: translateY(-250%); transform: translateY(-250%); }
-	.btn-burger span:after { -webkit-transform: translateY(250%); transform: translateY(250%);}
+	header .burger{margin:auto 30px auto 0;}
+  header.small .left .burger{display: block;}
+	header .burger a{width:30px; height:30px;}
+	header .btn-burger span:before { -webkit-transform: translateY(-250%); transform: translateY(-250%); }
+	header .btn-burger span:after { -webkit-transform: translateY(250%); transform: translateY(250%);}
 
 	/* Menu */
 	nav{width:100%; padding:50px 30px 50px 30px; overflow:auto;}
