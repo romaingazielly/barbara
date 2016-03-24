@@ -133,12 +133,12 @@ function sliderHome(compteur){
 	// Si 1 -> 8
 	memory.push(compteur);
 	lastCompteur = memory[memory.length - 2];
-	console.log(memory, lastCompteur);
+	//console.log(memory, lastCompteur);
 
 
-	if(compteur == 8){
-		TweenLite.fromTo( $('.pic-slider'), .85, {y:'800%'}, {y:'0'} );
-	}
+	// if(compteur == 8){
+	// 	TweenLite.fromTo( $('.pic-slider'), .85, {y:'800%'}, {y:'0'} );
+	// }
 
 	TweenLite.to($('.pic-slider'), .85,{y: '-'+index*100+'%', ease:Power3.easeOut, onComplete:function(){
 		//alert('complete');
