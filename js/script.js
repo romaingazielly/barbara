@@ -7,6 +7,9 @@ jQuery(document).ready(function($) {
 
 	// Home
 	if( $('.container').hasClass('home') ){
+		// Slider
+
+
 		// Json
 		$.getJSON( "projets.json", function(data){
 			dataHome = data;
@@ -80,6 +83,8 @@ jQuery(document).ready(function($) {
 		});
 	}
 
+
+
 	// Projets
 	if( $('.container').hasClass('projets') ){
 
@@ -117,24 +122,23 @@ function resizeHome() {
 }
 
 function sliderHome(compteur){
-	var num = compteur;
-	var index = num-1;
-	$.getJSON( "projets.json", function(data){
-		console.log(num);
-		$('.home .projet').attr('id', data.projets[index].id);
-		$("#miniature-projet").attr('src', '/images/projets/'+ data.projets[index].id +'-mini.png'); // Miniature
-		$("#miniature-projet").attr('srcset', '/images/projets/'+ data.projets[index].id +'-mini-x2.png x2'); // Miniature x2
-		$('#titre-projet').html(data.projets[index].title); // Titre
-		$('#subtitle-projet').html(data.projets[index].subtitle);
-		$('#num-projet').html(num); // Numérotation
-		$('.projet-link').attr('href', '/projets/'+ data.projets[index].id +'.php');
-	})
-	.done(function(){
-		console.log('done!')
-	})
-	.fail(function(){
-		console.log('fail: ')
+	var index = compteur-1;
+	$('#num-projet').html(compteur); // Numérotation
+	console.log(index);
+	//$('.pic-slider').css('transform', 'translate3d(0px, -'+compteur*100+'%, 0px)' );
+	TweenLite.to('.pic-slider', .75, {y: '-'+ compteur*100 +'%', onComplete:function(){
+			// Redéfini l'ordre
+			var curr = $('#pic-next').attr();
+			//$('#pic-current').
+		}
 	});
+
+	$('.home .projet').attr('id', dataHome.projets[index].id);
+	$("#miniature-projet").attr('src', '/images/projets/'+ dataHome.projets[index].id +'-mini.png'); // Miniature
+	$("#miniature-projet").attr('srcset', '/images/projets/'+ dataHome.projets[index].id +'-mini-x2.png x2'); // Miniature x2
+	$('#titre-projet').html(dataHome.projets[index].title); // Titre
+	$('#subtitle-projet').html(dataHome.projets[index].subtitle);
+	$('.projet-link').attr('href', '/projets/'+ dataHome.projets[index].id +'.php');
 }
 
 function headerSmall(){

@@ -41,8 +41,23 @@
           <!-- Fin Nav Projet -->
 
           <section class="preview">
-            <div class="pic">
-              <div class="border"></div>
+            <div class="pic-proj">
+              <div class="pic-container">
+                <div class="pic-slider">
+                  <div class="pic" id="pic-prev">
+                    <a href="projets/balle-au-bond.php"></a>
+                    <div class="border"></div>
+                  </div>
+                  <div class="pic" id="pic-current">
+                    <a href="projets/balle-au-bond.php"></a>
+                    <div class="border"></div>
+                  </div>
+                  <div class="pic" id="pic-next">
+                    <a href="projets/balle-au-bond.php"></a>
+                    <div class="border"></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
 
