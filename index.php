@@ -41,19 +41,31 @@
           <!-- Fin Nav Projet -->
 
           <section class="preview">
-            <div class="pic-proj">
+            <div class="pic-hide">
               <div class="pic-container">
-                <div class="pic-slider">
-                  <div class="pic" id="pic-prev">
-                    <a href="projets/balle-au-bond.php"></a>
+                <div class="pic-slider" style="transform: translate3d(0,0,0);">
+                  <div class="pic" id="pic-balle-au-bond">
                     <div class="border"></div>
                   </div>
-                  <div class="pic" id="pic-current">
-                    <a href="projets/balle-au-bond.php"></a>
+                  <div class="pic" id="pic-saupiquet">
                     <div class="border"></div>
                   </div>
-                  <div class="pic" id="pic-next">
-                    <a href="projets/balle-au-bond.php"></a>
+                  <div class="pic" id="pic-le-petit-marseillais">
+                    <div class="border"></div>
+                  </div>
+                  <div class="pic" id="pic-animaux-sante">
+                    <div class="border"></div>
+                  </div>
+                  <div class="pic" id="pic-igloo">
+                    <div class="border"></div>
+                  </div>
+                  <div class="pic" id="pic-wilkinson-summer">
+                    <div class="border"></div>
+                  </div>
+                  <div class="pic" id="pic-auzou">
+                    <div class="border"></div>
+                  </div>
+                  <div class="pic" id="pic-classic-expert">
                     <div class="border"></div>
                   </div>
                 </div>
