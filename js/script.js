@@ -2,6 +2,8 @@ var $window = $(window),
 	$h = $window.height(),
 	$w = $window.width(),
 	dataHome;
+	var lastCompteur;
+		var memory = [];
 
 jQuery(document).ready(function($) {
 
@@ -22,6 +24,7 @@ jQuery(document).ready(function($) {
 
 		// Slider projet Home
 		var compteur = 1;
+
 		$('a#next-projet').on('click', function(event) {
 			event.preventDefault();
 			compteur++;
@@ -117,24 +120,29 @@ function resizeHome() {
 }
 
 function sliderHome(compteur){
-	var num = compteur;
-	var index = num-1;
-	$.getJSON( "projets.json", function(data){
-		console.log(num);
-		$('.home .projet').attr('id', data.projets[index].id);
-		$("#miniature-projet").attr('src', '/images/projets/'+ data.projets[index].id +'-mini.png'); // Miniature
-		$("#miniature-projet").attr('srcset', '/images/projets/'+ data.projets[index].id +'-mini-x2.png x2'); // Miniature x2
-		$('#titre-projet').html(data.projets[index].title); // Titre
-		$('#subtitle-projet').html(data.projets[index].subtitle);
-		$('#num-projet').html(num); // Numérotation
-		$('.projet-link').attr('href', '/projets/'+ data.projets[index].id +'.php');
-	})
-	.done(function(){
-		console.log('done!')
-	})
-	.fail(function(){
-		console.log('fail: ')
-	});
+	var index = compteur-1;
+	console.log(compteur);
+	$('.home .projet').attr('id', dataHome.projets[index].id);
+	$("#miniature-projet").attr('src', '/images/projets/'+ dataHome.projets[index].id +'-mini.png'); // Miniature
+	//$("#miniature-projet").attr('srcset', '/images/projets/'+ dataHome.projets[index].id +'-mini-x2.png x2'); // Miniature x2
+	$('#titre-projet').html(dataHome.projets[index].title); // Titre
+	$('#subtitle-projet').html(dataHome.projets[index].subtitle);
+	$('#num-projet').html(compteur); // Numérotation
+	$('.projet-link').attr('href', '/projets/'+ dataHome.projets[index].id +'.php');
+
+	// Si 1 -> 8
+	memory.push(compteur);
+	lastCompteur = memory[memory.length - 2];
+	console.log(memory, lastCompteur);
+
+
+	if(compteur == 8){
+		TweenLite.fromTo( $('.pic-slider'), .85, {y:'800%'}, {y:'0'} );
+	}
+
+	TweenLite.to($('.pic-slider'), .85,{y: '-'+index*100+'%', ease:Power3.easeOut, onComplete:function(){
+		//alert('complete');
+	}});
 }
 
 function headerSmall(){
