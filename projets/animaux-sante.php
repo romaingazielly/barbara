@@ -57,7 +57,7 @@
 
         <article class="intro-projet">
           <div class="title-projet">
-            <img src="/images/projets/animaux-santee-mini.png"><h1><span>Animaux</span><br/><span>Santée</span></h1>
+            <img src="/images/projets/animaux-santee-mini.png"><h1><span>Animaux</span><br/><span>Santé</span></h1>
           </div>
 
           <div class="infos-projet">

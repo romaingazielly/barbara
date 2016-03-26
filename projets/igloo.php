@@ -136,7 +136,7 @@
       <footer>
         <!-- Logo -->
         <a href="/" id="logo-footer" title="Barbara Sevin">
-          <img src="/images/logo-reverse.png" alt="Barbara Sevin" width="144" height="19" srcset="images/logo-reverse-x2.png 2x">
+          <img src="/images/logo-reverse.png" alt="Barbara Sevin" width="144" height="19" srcset="/images/logo-reverse-x2.png 2x">
           <span>Branding & Digital ideas</span>
         </a>
 
