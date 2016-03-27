@@ -6,58 +6,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio de Barbara Sevin">
         <title>Barbara Sevin - Portfolio 2016</title>
-        <link href="images/icons/favicon.ico" rel="shortcut icon">
-        <link href="images/icons/touch.png" rel="apple-touch-icon-precomposed">
-        <link rel="stylesheet" href="css/reset.css">
+        <link href="/images/icons/favicon.ico" rel="shortcut icon">
+        <link href="/images/icons/touch.png" rel="apple-touch-icon-precomposed">
+        <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,800">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
     </head>
 
-    <body>
-      <header class="small">
-        <div class="left">
-          <div class="sub-head">
-            <!-- Logo -->
-            <a href="/" id="logo" title="Barbara Sevin">
-              <img src="/images/logo.png" alt="Barbara Sevin" width="144" height="19" srcset="/images/logo-x2.png 2x">
-              <span>Branding & Digital ideas</span>
-            </a>
-
-            <!-- Nav -->
-            <div class="burger"><a href="javascript:;" class="btn-burger" menu-button=""><span>Menu</span></a></div>
-          </div>
-          <nav>
-            <div class="vert-center">
-              <div>
-              <p><a href="">Projects</a></p>
-              <ul>
-                <li><a href="projets/animaux-sante.php">Animaux Santé</a></li>
-                <li><a href="projets/saupiquet.php">Saupiquet</a></li>
-                <li><a href="projets/balle-au-bond.php">La balle au bond</a></li>
-                <li><a href="projets/le-petit-marseillais.php">Le Petit Marseillais</a></li>
-                <li><a href="projets/auzou.php">Auzou éditions</a></li>
-                <li><a href="projets/classic-expert.php">Classic Expert</a></li>
-                <li><a href="projets/igloo.php">L'igloo immobilier</a></li>
-                <li><a href="projets/wilkinson-summer.php">Wilkinson Summer</a></li>
-              </ul>
-              <p><a href="">Moodboards</a></p>
-              <p><a href="/about.html">About</a></p>
-              </div>
-            </div>
-          </nav>
-        </div>
-        <div class="right">
-          <a class="back-home" href="/">Back to Projects</a>
-          <div class="burger"><a href="javascript:;" class="btn-burger" menu-button=""><span>Menu</span></a></div>
-        </div>
-      </header>
+    <body class="page-projet">
+      <?php include('../partials/header.php'); ?>
 
       <section class="container projets auzou">
 
         <article class="intro-projet">
           <div class="title-projet">
-            <img src="images/projets/projet-5-mini.png"><h1><span>Éditions</span><br/><span>Auzou</span></h1>
+            <img src="/images/projets/auzou-mini.png"><h1><span>Éditions</span><br/><span>Auzou</span></h1>
           </div>
 
           <div class="infos-projet">
@@ -79,34 +43,30 @@
         </article>
 
         <article class="gallerie">
-          <section class="solo">
-            <img src="images/projets/projet-2-cover.jpg">
+
+          <section class="full">
+            <img src="/images/projets/auzou-full.png">
           </section>
 
           <section class="full">
-            <img src="images/projets/projet-2-full.png">
-            <a href="#">Website</a>
+            <img src="/images/projets/auzou-full-2.jpg">  
           </section>
 
           <section class="full">
-            <img src="images/projets/projet-2-full-2.jpg">  
-          </section>
-
-          <section class="full">
-            <img src="images/projets/projet-2-full-3.jpg">
+            <img src="/images/projets/auzou-full-3.jpg">
           </section>
           
           <section class="double">
-            <img src="images/projets/projet-2-double-1.jpg">
-            <img src="images/projets/projet-2-double-2.jpg">
+            <img src="/images/projets/auzou-double-1.jpg">
+            <img src="/images/projets/auzou-double-2.jpg">
           </section>
 
           <section class="full nomarg">
-            <img src="images/projets/projet-2-full-4.jpg">  
+            <img src="/images/projets/auzou-full-4.jpg">  
           </section>
 
           <section class="full nomarg">
-            <img src="images/projets/projet-2-full-5.jpg">  
+            <img src="/images/projets/auzou-full-5.jpg">  
           </section>
 
         </article>
@@ -125,32 +85,13 @@
 
       </section>
 
-      <footer>
-        <!-- Logo -->
-        <a href="/" id="logo-footer" title="Barbara Sevin">
-          <img src="images/logo.png" alt="Barbara Sevin" width="144" height="19" srcset="images/logo-x2.png 2x">
-          <span>Branding & Digital ideas</span>
-        </a>
-
-        <div class="links">
-          <div class="join">
-            <h1>Barbara Sevin - <strong>Art Director</strong></h1>
-            <a href="mailto:barbara.sevin@gmail.com">barbara.sevin@gmail.com</a>
-          </div>
-
-          <ul class="social">
-            <li><a href="">Behance</a></li>
-            <li><a href="">LinkedIn</a></li>
-          </ul>
-        </div>
-      </footer>
+      <?php include('../partials/footer.php') ?>
 
     </body>
-    <script src="js/libs/jquery-2.2.1.min.js"></script>
-    <script src="js/libs/gsap/TweenLite.min.js"></script>
-    <script src="js/libs/gsap/plugins/CSSPlugin.min.js"></script>
-    <script src="js/libs/gsap/plugins/ScrollToPlugin.min.js"></script>
-    <script src="js/libs/gsap/plugins/EasePack.min.js"></script>
-
-    <script src="js/script.js"></script>
+    <script src="/js/libs/jquery-2.2.1.min.js"></script>
+    <script src="/js/libs/gsap/TweenLite.min.js"></script>
+    <script src="/js/libs/gsap/plugins/CSSPlugin.min.js"></script>
+    <script src="/js/libs/gsap/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/libs/gsap/plugins/EasePack.min.js"></script>
+    <script src="/js/script.js"></script>
 </html>

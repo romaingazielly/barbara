@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="/css/style.css">
     </head>
 
-    <body>
+    <body class="page-projet">
       <header class="color">
         <div class="left">
           <div class="sub-head">
@@ -32,14 +32,14 @@
               <div>
               <p><a href="">Projects</a></p>
               <ul>
-                <li><a href="projets/animaux-sante.php">Animaux Santé</a></li>
-                <li><a href="projets/saupiquet.php">Saupiquet</a></li>
-                <li><a href="projets/balle-au-bond.php">La balle au bond</a></li>
-                <li><a href="projets/le-petit-marseillais.php">Le Petit Marseillais</a></li>
-                <li><a href="projets/auzou.php">Auzou éditions</a></li>
-                <li><a href="projets/classic-expert.php">Classic Expert</a></li>
-                <li><a href="projets/igloo.php">L'igloo immobilier</a></li>
-                <li><a href="projets/wilkinson-summer.php">Wilkinson Summer</a></li>
+                <li><a href="/projets/animaux-sante.php">Animaux Santé</a></li>
+                <li><a href="/projets/saupiquet.php">Saupiquet</a></li>
+                <li><a href="/projets/balle-au-bond.php">La balle au bond</a></li>
+                <li><a href="/projets/le-petit-marseillais.php">Le Petit Marseillais</a></li>
+                <li><a href="/projets/auzou.php">Auzou éditions</a></li>
+                <li><a href="/projets/classic-expert.php">Classic Expert</a></li>
+                <li><a href="/projets/igloo.php">L'igloo immobilier</a></li>
+                <li><a href="/projets/wilkinson-summer.php">Wilkinson Summer</a></li>
               </ul>
               <p><a href="">Moodboards</a></p>
               <p><a href="/about.html">About</a></p>
@@ -79,13 +79,9 @@
         </article>
 
         <article class="gallerie">
-          <section class="solo">
-            <img src="/images/projets/classic-expert-cover.jpg">
-          </section>
 
           <section class="full">
             <img src="/images/projets/classic-expert-full.jpg">
-            <a href="#">Logotype</a>
           </section>
 
           <section class="full nomarg">
@@ -151,6 +147,5 @@
     <script src="/js/libs/gsap/plugins/CSSPlugin.min.js"></script>
     <script src="/js/libs/gsap/plugins/ScrollToPlugin.min.js"></script>
     <script src="/js/libs/gsap/plugins/EasePack.min.js"></script>
-
     <script src="/js/script.js"></script>
 </html>

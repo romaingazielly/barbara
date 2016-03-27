@@ -46,7 +46,7 @@ body.noscroll{overflow:hidden;}
 /*****************************/
 /* HEADER                    */
 /*****************************/
-header{position:fixed; display:flex; width:100%; height:140px; z-index:420; transition:all .5s ease-in-out; box-shadow: 0 0px 30px rgba(0,0,0,.15)}
+header{position:fixed; display:flex; width:100%; height:140px; z-index:420; transition:all .5s ease-in-out;}
 header .right{display:flex; width:53.5714286%; height:100%; align-items:center; justify-content:flex-end;}
 header .right .back-home{font:14px/21px "PT Sans"; color:#090909; text-decoration:none; margin:0 6.6666667% 0 0;}
 header .right .back-home:before{content:""; display:inline-block; margin:0 15px 0 0; width:10px; height:7px; background:url('../images/arr-prev.png') no-repeat center / cover;}
@@ -58,15 +58,12 @@ header #logo span{font:13px/15px "PT Sans"; color:#4a4949; letter-spacing:.1em;}
 header.small{height:70px; background:#fff;}
 header.small #logo img{margin:0 0 0 0;}
 header.small #logo span{display:none;}
-header.small .left .burger{display:none;}
-header .right .burger{display:none;}
-header.small .right .burger{display:block;}
 
 header.color{background:#fff;}
 
 /* Burger */
 .burger {position:relative; z-index:10; margin:auto 50px auto 0;}
-.sub-head.btn-open{background:rgba(255,255,255,.8);}
+.sub-head.btn-open{background:#fff; box-shadow:0 0px 30px rgba(0,0,0,.15);}
 .sub-head.btn-open + nav{display:flex;}
 .sub-head.btn-open + nav:after{background:rgba(0,0,0,.5);}
 .burger a {width:38px; height:38px; background:#090909; position:relative; display: block;}
@@ -181,7 +178,6 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 /*****************************/
 /* ABOUT                     */
 /*****************************/
-
 .infos{background:#fff0f0;}
 .infos h1{font:300 40px/45px "Open Sans"; margin:0 0 35px 0; display:inline-flex; border-bottom:solid 5px #090909;}
 .infos figure{display:flex; align-items:center;}
@@ -218,8 +214,13 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 /*****************************/
 /* PROJECT                   */
 /*****************************/
+.page-projet header{box-shadow: 0 0px 30px rgba(0,0,0,.15)}
+.page-projet header .left .burger{display:none;}
+.page-projet header .left .sub-head.btn-open .burger{display:block;}
+.page-projet.noscroll .burger{z-index:-1;}
 .projets{width:100%; padding-top:140px;}
-.intro-projet{display:flex; justify-content:space-between;}
+.intro-projet{position:relative; display:flex; justify-content:space-between;}
+.projets .intro-projet:before{content:""; position:absolute; top:0; left:0; right:0; bottom:0; opacity:0.05;}
 .intro-projet .title-projet{display:flex; width:40%; align-items:flex-start; margin:5% 0 0 5%; /* 70 ÷ 1400 */}
 .intro-projet .title-projet h1{display:inline-block; font:300 38px/55px "LibreBaskerville-Regular"; color:#000; text-align: center; letter-spacing:.1em;}
 .intro-projet .title-projet h1 span{display:inline-block; position:relative;}
@@ -238,8 +239,6 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 .gallerie .full{position:relative; display:flex; justify-content:center; align-items:center; width:100%; margin:0 0 3.5714286% 0;}
 .gallerie .full.nomarg img{padding:0; width:100%;}
 .gallerie .full img{margin:0; padding:70px 3.5714286%; width:auto; max-width:100%;}
-.gallerie .full a{position:absolute; bottom:7.1428572%; right:7.1428572%; color:#090909; text-decoration:none; font:300 30px/55px "LibreBaskerville-Regular";}
-.gallerie .full a:after{display:block; content:""; width:100%; height:5px; background:#090909; margin:-10px auto 0;}
 aside{display:flex; justify-content:center; align-items:center; margin:3.5714286% 0 7.1428572%;}
 aside #projet-top{display:flex; flex-direction:column; width:67px; height:67px; margin:0 16.785714%; background:#090909; justify-content:center; align-items:center; color:#fff; text-decoration:none; font:700 14px "PT Sans";}
 aside #projet-top:before{content:""; width:7px; height:10px; margin:0 0 5px 0; display:block; background:url('../images/arr-top.png') no-repeat center / cover;}
@@ -259,22 +258,25 @@ aside .projet-nav .projet-name{display:block; font-weight:400;}
 
 /* Themes */
 .projets.balle-au-bond .intro-projet{background:#6fa2ff;}
+.projets.balle-au-bond .intro-projet:before{background:url('/images/projets/balle-au-bond-cover.jpg') no-repeat center/cover;}
 
 .projets.classic-expert .intro-projet{background:#fee7b9;}
+.projets.classic-expert .intro-projet:before{background:url('/images/projets/classic-expert-cover.jpg') no-repeat center/cover;}
 .projets.classic-expert .intro-projet .title-projet h1 span:after{background:#c9854b;}
 
 .projets.saupiquet .intro-projet{background:#c1ff8f;}
+.projets.saupiquet .intro-projet:before{background:url('/images/projets/saupiquet-cover.jpg') no-repeat center/cover;}
 .projets.saupiquet .intro-projet .title-projet h1 span:after{background:#47e409;}
 
 .projets.igloo .intro-projet{background:#12e6e1;}
+.projets.igloo .intro-projet:before{background:url('/images/projets/igloo-cover.jpg') no-repeat center/cover;}
 .projets.igloo .intro-projet .title-projet h1{text-align:left;}
 .projets.igloo .intro-projet .title-projet h1 span:after{background:#007976;}
 
-.projets.auzou + footer{background:#fcf0ff;}
 .projets.auzou .intro-projet{background:#fcf0ff;}
+.projets.auzou .intro-projet:before{background:url('/images/projets/auzou-cover.jpg') no-repeat center/cover;}
 .projets.auzou .intro-projet .title-projet h1 span:after{background:#b767cb;}
-.projets.auzou .gallerie .full a:after{background:#b767cb;}
-.projets.auzou .gallerie .full{background:#fcf0ff;}
+
 
 /*****************************/
 /* FOOTER                    */
@@ -332,6 +334,7 @@ footer .social a:before{display:inline-block; vertical-align:middle; content:"";
   /* Header */
   header{flex-direction:column;}
   header .left{width:100%;}
+  header .left .burger{display:block;}
   header .right{display:none;}
 
   /* Menu */
@@ -462,11 +465,11 @@ footer .social a:before{display:inline-block; vertical-align:middle; content:"";
 /* iPhone 5 */
 @media screen and (max-width:320px) and (max-height:568px){
   /* Menu */
-  nav{padding: 110px 30px 50px 30px;}
+  nav{padding: 130px 30px 50px 30px;}
 }
 
 /* iPhone 4 */
 @media screen and (max-width:320px) and (max-height:480px){
     /* Menu */
-    nav{width:100%; padding:160px 30px 50px 30px; overflow:auto;}
+    nav{width:100%; padding:220px 30px 50px 30px; overflow:auto;}
 }
