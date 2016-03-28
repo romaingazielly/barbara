@@ -2,49 +2,57 @@
 	"projets": [
 		{
 			"id": "balle-au-bond",
-			"title": "<span>La balle</span><br/><span>au bond</span>",
+			"name": "La balle au bond",
+			"title": "<a href='/projets/balle-au-bond.php'><span>La balle</span><br/><span>au bond</span></a>",
 			"subtitle": "Off & online branding",
 			"couleur": "#6fa2ff"
 		},
 		{
 			"id": "saupiquet",
-			"title": "<span>Saupiquet</span>",
+			"name": "Saupiquet",
+			"title": "<a href='/projets/saupiquet.php'><span>Saupiquet</span></a>",
 			"subtitle": "Online branding & website",
 			"couleur": "#47e409"
 		},
 		{
 			"id": "le-petit-marseillais",
-			"title": "<span>Le Petit</span><br/><span>Marseillais</span>",
+			"name": "Le Petit Marseillais",
+			"title": "<a href='projets/le-petit-marseillais.php'><span>Le Petit</span><br/><span>Marseillais</span></a>",
 			"subtitle": "Facebook contest",
 			"couleur": "#fe0036"
 		},
 		{
 			"id": "animaux-sante",
-			"title": "<span>Animaux</span><br/><span>Santé</span>",
+			"name": "Animaux Santé",
+			"title": "<a href='/projets/animaux-sante.php'><span>Animaux</span><br/><span>Santé</span></a>",
 			"subtitle": "Branding & corporate website",
 			"couleur": "#02dca6"
 		},
 		{
 			"id": "igloo",
+			"name": "L'igloo",
 			"title": "L'igloo",
 			"subtitle": "Estate search engine",
 			"couleur": "#12e6e1"
 		},
 		{
 			"id": "wilkinson-summer",
-			"title": "<span>Wilkinson</span><br /><span>Summer</span>",
+			"name": "Wilkinson-summer",
+			"title": "<a href='/projets/wilkinson-summer.php'><span>Wilkinson</span><br /><span>Summer</span></a>",
 			"subtitle": "Facebook Applications",
 			"couleur": "#e0fe69"
 		},
 		{
 			"id": "auzou",
-			"title": "<span>Auzou</span><br /><span>Éditions</span>",
+			"name": "Auzou",
+			"title": "<a href='/projets/auzou.php'><span>Auzou</span><br /><span>Éditions</span></a>",
 			"subtitle": "Responsive E-commerce",
 			"couleur": "#e9c6ff"
 		},
 		{
 			"id": "classic-expert",
-			"title": "<span>Classic</span><br /><span>Expert</span>",
+			"name": "Classic Expert",
+			"title": "<a href='/projets/classic-expert.php'><span>Classic</span><br /><span>Expert</span></a>",
 			"subtitle": "Branding & corporate website",
 			"couleur": "#fee7b9"
 		}

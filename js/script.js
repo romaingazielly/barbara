@@ -123,12 +123,12 @@ function sliderHome(compteur){
 	var index = compteur-1;
 	console.log(compteur);
 	$('.home .projet').attr('id', dataHome.projets[index].id);
-	$("#miniature-projet").attr('src', '/images/projets/'+ dataHome.projets[index].id +'-mini.png'); // Miniature
-	$("#miniature-projet").attr('srcset', '/images/projets/'+ dataHome.projets[index].id +'-mini-x2.png x2'); // Miniature x2
+	$('#miniature-projet').html('<img src="/images/projets/'+ dataHome.projets[index].id +'-mini.png" srcset="/images/projets/'+ dataHome.projets[index].id +'-mini-x2.png 2x" alt="'+ dataHome.projets[index].title +'" />');
 	$('#titre-projet').html(dataHome.projets[index].title); // Titre
 	$('#subtitle-projet').html(dataHome.projets[index].subtitle);
 	$('#num-projet').html(compteur); // Numérotation
-	$('.projet-link').attr('href', '/projets/'+ dataHome.projets[index].id +'.php');
+	$('.projet-infos a').attr('href', '/projets/'+ dataHome.projets[index].id +'.php')
+						.attr('title', dataHome.projets[index].name);
 
 	// Si 1 -> 8
 	memory.push(compteur);
@@ -143,8 +143,8 @@ function sliderHome(compteur){
 	TweenLite.to($('.pic-slider'), 2,{y: '-'+index*100+'%', ease:Power3.easeOut, onComplete:function(){
 		//alert('complete');
 	}});
-	TweenLite.fromTo( $('#pic-balle-au-bond'), 2, {css: {opacity:1}}, { css:{opacity:0} });
-	TweenLite.fromTo( $('#pic-saupiquet'), 9, {css: {opacity:0}}, { css:{opacity:1} });
+	//TweenLite.fromTo( $('#pic-balle-au-bond'), 2, {css: {opacity:1}}, { css:{opacity:0} });
+	//TweenLite.fromTo( $('#pic-saupiquet'), 9, {css: {opacity:0}}, { css:{opacity:1} });
 }
 
 function headerSmall(){

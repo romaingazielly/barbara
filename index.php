@@ -56,12 +56,19 @@
       <section class="container home">
         <article class="projet" id="balle-au-bond">
           <section class="projet-infos">
-            <div class="resume">
-              <img id="miniature-projet" src="images/projets/balle-au-bond-mini.png" srcset="images/projets/balle-au-bond-mini-x2.png 2x">
-              <h1 id="titre-projet"><span>La balle</span><br/><span>au bond</span></h1>
-              <p id="subtitle-projet" class="legend">Off & online branding</p>
+            <div class="padd">
+              <div class="proj-left">
+                <div class="resume">
+                  <div id="miniature-projet">
+                    <img src="images/projets/balle-au-bond-mini.png" srcset="images/projets/balle-au-bond-mini-x2.png 2x" alt="La balle au bond" />
+                  </div>
+                  <h1 id="titre-projet"><a href="projets/balle-au-bond.php" title="La balle au bond"><span>La balle</span><br/><span>au bond</span></a></h1>
+                  <p id="subtitle-projet" class="legend">Off & online branding</p>
+                </div>
+                <a class="projet-link" href="/projets/balle-au-bond.php" title="La balle au bond">View project</a>
+              </div>
             </div>
-            <a class="projet-link" href="projets/balle-au-bond.php">View project</a>
+
           </section>
 
           <!-- Nav Projet -->
@@ -82,27 +89,35 @@
                 <div class="pic-slider" style="transform: translate3d(0,0,0);">
                   <div class="pic" id="pic-balle-au-bond">
                     <div class="border"></div>
+                    <a class="img-link" href="/projets/balle-au-bond.php" title="Projet : La balle au bond"></a>
                   </div>
                   <div class="pic" id="pic-saupiquet">
                     <div class="border"></div>
+                    <a class="img-link" href="/projets/saupiquet.php" title="Projet : Saupiquet"></a>
                   </div>
                   <div class="pic" id="pic-le-petit-marseillais">
                     <div class="border"></div>
+                    <a class="img-link" href="/projets/le-petit-marseillais.php" title="Projet : Le Petit Marseillais"></a>
                   </div>
                   <div class="pic" id="pic-animaux-sante">
                     <div class="border"></div>
+                    <a class="img-link" href="/projets/animaux-sante.php" title="Projet : Animaux Santé"></a>
                   </div>
                   <div class="pic" id="pic-igloo">
                     <div class="border"></div>
+                    <a class="img-link" href="/projets/igloo.php" title="Projet : L'igloo"></a>
                   </div>
                   <div class="pic" id="pic-wilkinson-summer">
                     <div class="border"></div>
+                    <a class="img-link" href="/projets/wilkinson-summer.php" title="Projet : Wilkinson Summer"></a>
                   </div>
                   <div class="pic" id="pic-auzou">
                     <div class="border"></div>
+                    <a class="img-link" href="/projets/auzou.php" title="Projet : Auzou"></a>
                   </div>
                   <div class="pic" id="pic-classic-expert">
                     <div class="border"></div>
+                    <a class="img-link" href="/projets/classic-expert.php" title="Projet : Classic Expert"></a>
                   </div>
                 </div>
               </div>
@@ -118,6 +133,5 @@
     <script src="/js/libs/gsap/plugins/CSSPlugin.min.js"></script>
     <script src="/js/libs/gsap/plugins/ScrollToPlugin.min.js"></script>
     <script src="/js/libs/gsap/plugins/EasePack.min.js"></script>
-
     <script src="/js/script.js"></script>
 </html>
