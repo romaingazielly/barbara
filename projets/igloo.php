@@ -62,18 +62,18 @@
 
           <div class="infos-projet">
             <section class="date">
-              <p class="bold">Project date:</p>
-              <p>Summer 2013</p>
+              <p class="bold">Date :</p>
+              <p>2014 - 2015</p>
             </section>
             
             <section class="mission">
-              <p class="bold">Mission:</p>
-              <p>Defining a new global identity for the floating Café «La Balle au bond». New image should express fresh & peculiar atmosphere of the place.</p>
+              <p class="bold">Mission :</p>
+              <p>Créer un moteur de recherche innovant et proposer un axe de communication original et décalé qui accompagnera le développement de la marque.</p>
             </section>
             
             <section class="description">
-              <p class="bold">About project:</p>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p class="bold">Description :</p>
+              <p>L'Igloo est <strong>un moteur de recherche instantané</strong> et responsive, répertoriant un grand nombre d'annonces immobilières. Petit frère du site <a href="http://www.leparking.fr" target="_blank">Leparking.fr</a>, L'Igloo a nécessité un long <strong>processus de R&D</strong> avant d'aboutir à sa version actuelle.Durant ces phases de réflexion, l<strong>'UX et l'UI ont été des sujets centraux</strong>, prouvant le désir de fournir une interface simple mais différenciante. La création d'une charte graphique et d'un logotype ont finalement dessiné un ensemble qui affiche <strong>sa touche d'humour et de folie.</strong></p>
             </section>
           </div>
         </article>
@@ -115,14 +115,14 @@
         </article>
 
         <aside>
-          <a class="projet-nav" id="projet-prev" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-prev" href="/projets/animaux-sante.php" title="Voir le projet Animaux Santé">
             <span>Previous project</span>
-            <span class="projet-name">Saupiquet</span>
+            <span class="projet-name">Animaux Santé</span>
           </a>
           <a id="projet-top" href="" title="Go to Top">Top</a>
-          <a class="projet-nav" id="projet-next" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-next" href="/projets/wilkinson-summer.php" title="Voir le projet Wilkinson Summer">
             <span>Next project</span>
-            <span class="projet-name">Le petit Marseillais</span>
+            <span class="projet-name">Wilkinson Summer</span>
           </a>
         </aside>
 

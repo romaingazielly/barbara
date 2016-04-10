@@ -43,7 +43,7 @@
                 <li><a href="projets/wilkinson-summer.php">Wilkinson Summer</a></li>
               </ul>
               <p><a href="">Moodboards</a></p>
-              <p><a href="/about.html">About</a></p>
+              <p><a href="/about.php">About</a></p>
               </div>
             </div>
           </nav>
@@ -62,7 +62,7 @@
                   <div id="miniature-projet">
                     <img src="images/projets/balle-au-bond-mini.png" srcset="images/projets/balle-au-bond-mini-x2.png 2x" alt="La balle au bond" />
                   </div>
-                  <h1 id="titre-projet"><a href="projets/balle-au-bond.php" title="La balle au bond"><span>La balle</span><br/><span>au bond</span></a></h1>
+                  <h1 id="titre-projet"><a href="/projets/balle-au-bond.php" title="La balle au bond"><span>La balle</span><br/><span>au bond</span></a></h1>
                   <p id="subtitle-projet" class="legend">Off & online branding</p>
                 </div>
                 <a class="projet-link" href="/projets/balle-au-bond.php" title="La balle au bond">View project</a>

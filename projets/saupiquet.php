@@ -62,18 +62,18 @@
 
           <div class="infos-projet">
             <section class="date">
-              <p class="bold">Project date:</p>
-              <p>Summer 2013</p>
+              <p class="bold">Date :</p>
+              <p>Automne 2014</p>
             </section>
             
             <section class="mission">
-              <p class="bold">Mission:</p>
-              <p>Defining a new global identity for the floating Café «La Balle au bond». New image should express fresh & peculiar atmosphere of the place.</p>
+              <p class="bold">Mission :</p>
+              <p>Proposer un nouvel axe de développement digital visant à dépoussiérer l’image des produits Saupiquet.</p>
             </section>
             
             <section class="description">
-              <p class="bold">About project:</p>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p class="bold">Description :</p>
+              <p>Pour honorer sa nouvelle signature "Donner des couleurs à la mer" et rendre à ses produits leurs notes savoureuses, la marque de conserves Saupiquet aspire à <strong>un nouvel axe de développement online</strong>. Le dispositif digital est composé d'un <strong>site responsive et d'une série de jeux et publications</strong> visant à animer la page Facebook de la marque. Une nouvelle image plus <strong>colorée et ludique</strong> a été choisie pour véhiculer l'esprit convivial du produit et ses temps forts de consommation (pic-nic, apéritif...).</p>
             </section>
           </div>
         </article>
@@ -108,12 +108,12 @@
         </article>
 
         <aside>
-          <a class="projet-nav" id="projet-prev" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-prev" href="/projets/balle-au-bond.php" title="Voir le projet La Balle au Bond">
             <span>Previous project</span>
-            <span class="projet-name">Saupiquet</span>
+            <span class="projet-name">La Balle au bond</span>
           </a>
           <a id="projet-top" href="" title="Go to Top">Top</a>
-          <a class="projet-nav" id="projet-next" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-next" href="/projets/le-petit-marseillais.php" title="Voir le projet Le Petit Marseillais">
             <span>Next project</span>
             <span class="projet-name">Le petit Marseillais</span>
           </a>

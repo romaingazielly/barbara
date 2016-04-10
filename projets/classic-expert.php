@@ -62,18 +62,18 @@
 
           <div class="infos-projet">
             <section class="date">
-              <p class="bold">Project date:</p>
-              <p>Summer 2013</p>
+              <p class="bold">Date :</p>
+              <p>Automne 2016</p>
             </section>
             
             <section class="mission">
-              <p class="bold">Mission:</p>
-              <p>Defining a new global identity for the floating Café «La Balle au bond». New image should express fresh & peculiar atmosphere of the place.</p>
+              <p class="bold">Mission :</p>
+              <p>Refondre l’identité graphique du service pour séduire une cible plus jeune et variée en alliant vintage & modernité.</p>
             </section>
             
             <section class="description">
-              <p class="bold">About project:</p>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p class="bold">Description :</p>
+              <p>Classic Expert by Expervéo s'adresse aux propriétaires de <strong>véhicules de collection</strong> souhaitant vendre ou faire expertiser leur voiture. Pour élargir sa cible et proposer une image plus actuelle, le service a souhaité refondre son identité à travers la création d'<strong>une nouvelle charte graphique et d'un logo</strong> aux accents vintage. Cette nouvelle image a été déclinée sur <strong>un site corporate qui propose du "haut de gamme accessible"</strong>.</p>
             </section>
           </div>
         </article>
@@ -108,14 +108,14 @@
         </article>
 
         <aside>
-          <a class="projet-nav" id="projet-prev" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-prev" href="/projets/auzou.php" title="Voir le projet Auzou">
             <span>Previous project</span>
-            <span class="projet-name">Saupiquet</span>
+            <span class="projet-name">Auzou</span>
           </a>
           <a id="projet-top" href="" title="Go to Top">Top</a>
-          <a class="projet-nav" id="projet-next" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-next" href="/projets/balle-au-bond.php" title="Voir le projet La Balle au bond">
             <span>Next project</span>
-            <span class="projet-name">Le petit Marseillais</span>
+            <span class="projet-name">La Balle au Bond</span>
           </a>
         </aside>
 

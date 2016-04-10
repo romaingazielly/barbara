@@ -62,18 +62,19 @@
 
           <div class="infos-projet">
             <section class="date">
-              <p class="bold">Project date:</p>
-              <p>Summer 2013</p>
+              <p class="bold">Date :</p>
+              <p>Printemps 2015</p>
             </section>
             
             <section class="mission">
-              <p class="bold">Mission:</p>
-              <p>Defining a new global identity for the floating Café «La Balle au bond». New image should express fresh & peculiar atmosphere of the place.</p>
+              <p class="bold">Mission :</p>
+              <p>Animer la fan page de la marque à l’arrivée du printemps et faire découvrir en avant-première les produits phares de l’été.</p>
             </section>
             
             <section class="description">
-              <p class="bold">About project:</p>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p class="bold">Description :</p>
+              <p>Pour promouvoir son huile anti-cellulite sublimante et <strong>fidéliser sa communauté</strong> avant l'été, Le Petit Marseillais a opté pour un <strong>Facebook contest</strong>. Les participantes sont invitées à proposer 3 mots qui expriment selon elles la "Femme Sublimée" et la "Beauté au naturel" avant de s'inscrire au tirage au sort.
+              <strong>L'univers gourmand et acidulé</strong> a séduit plus de 15 000 participantes durant les 15 jours de l'opération.</p>
             </section>
           </div>
         </article>
@@ -84,14 +85,14 @@
         </article>
 
         <aside>
-          <a class="projet-nav" id="projet-prev" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-prev" href="/projets/saupiquet.php" title="Voir le projet Saupiquet">
             <span>Previous project</span>
             <span class="projet-name">Saupiquet</span>
           </a>
           <a id="projet-top" href="" title="Go to Top">Top</a>
-          <a class="projet-nav" id="projet-next" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-next" href="/projets/animaux-sante.php" title="Voir le projet Animaux Santé">
             <span>Next project</span>
-            <span class="projet-name">Le petit Marseillais</span>
+            <span class="projet-name">Animaux Santé</span>
           </a>
         </aside>
 

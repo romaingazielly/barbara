@@ -53,27 +53,27 @@
         </div>
       </header>
 
-      <section class="container projets classic-expert">
+      <section class="container projets animaux-sante">
 
         <article class="intro-projet">
           <div class="title-projet">
-            <img src="/images/projets/animaux-santee-mini.png"><h1><span>Animaux</span><br/><span>Santé</span></h1>
+            <img src="/images/projets/animaux-sante-mini.png"><h1><span>Animaux</span><br/><span>Santé</span></h1>
           </div>
 
           <div class="infos-projet">
             <section class="date">
-              <p class="bold">Project date:</p>
-              <p>Summer 2013</p>
+              <p class="bold">Date :</p>
+              <p>Automne 2016</p>
             </section>
             
             <section class="mission">
-              <p class="bold">Mission:</p>
-              <p>Defining a new global identity for the floating Café «La Balle au bond». New image should express fresh & peculiar atmosphere of the place.</p>
+              <p class="bold">Mission :</p>
+              <p>Refondre l’identité du service et de son site corporate en s’adaptant à la cible qui consulte principalement sur mobile.</p>
             </section>
             
             <section class="description">
-              <p class="bold">About project:</p>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p class="bold">Description :</p>
+              <p>Animaux Santé <strong>protège et prend soin des animaux</strong> de compagnie grâce à des solutions d'assurance sur-mesure. A travers la création d'une <strong>nouvelle charte graphique</strong> et d'un <strong>site B2C</strong>, le service tend à se rapprocher de ses souscripteurs et proposer une image alliant <strong>simplicité, sécurité et tendresse</strong>. Le projet a été proposé en <strong>mobile first</strong> pour une utilisation optimum sur les smalls devices qui représentent 70% du volume de connexions.</p>
             </section>
           </div>
         </article>
@@ -84,14 +84,14 @@
         </article>
 
         <aside>
-          <a class="projet-nav" id="projet-prev" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-prev" href="/projets/le-petit-marseillais.php" title="Voir le projet Le Petit Marseillais">
             <span>Previous project</span>
-            <span class="projet-name">Saupiquet</span>
+            <span class="projet-name">Le Petit Marseillais</span>
           </a>
           <a id="projet-top" href="" title="Go to Top">Top</a>
-          <a class="projet-nav" id="projet-next" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-next" href="/projets/igloo.php" title="Voir le projet L'Igloo">
             <span>Next project</span>
-            <span class="projet-name">Le petit Marseillais</span>
+            <span class="projet-name">L'Igloo</span>
           </a>
         </aside>
 

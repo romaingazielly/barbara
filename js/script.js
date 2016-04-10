@@ -97,6 +97,20 @@ jQuery(document).ready(function($) {
 		});
 	}
 
+	// About
+	if( $('.container').hasClass('about') ){
+
+
+		$('#go-top').on('click', function(event) {
+			event.preventDefault();
+			TweenLite.to(window, 2, {scrollTo:{y:0}, ease:Power2.easeOut});
+		});
+
+		$(document).scroll(function() {
+			headerSmall();
+		});
+	}
+
 	
 	// Burger
 	$('.burger').on('click', function(){

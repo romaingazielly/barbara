@@ -62,18 +62,18 @@
 
           <div class="infos-projet">
             <section class="date">
-              <p class="bold">Project date:</p>
-              <p>Summer 2013</p>
+              <p class="bold">Date :</p>
+              <p>2013-2014</p>
             </section>
             
             <section class="mission">
-              <p class="bold">Mission:</p>
-              <p>Defining a new global identity for the floating Café «La Balle au bond». New image should express fresh & peculiar atmosphere of the place.</p>
+              <p class="bold">Mission :</p>
+              <p>Proposer une nouvelle image de marque accompagnée d’un dispositif digital. Séduire le coeur de cible (20-30 ans) avec une identité forte et singulière.</p>
             </section>
             
             <section class="description">
-              <p class="bold">About project:</p>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p class="bold">Description :</p>
+              <p>La Balle au bond est une péniche située sur la seine, au coeur de Paris. Pour attirer un public à l'image de sa programmation <strong>alternative & éclectique</strong>, La balle au bond a souhaité repenser sa <strong>communication on & offline</strong> pour une image plus jeune et décalée. Le dispositif imaginé s'appuie sur la <strong>dualité jour/nuit</strong> en proposant un <strong>site responsive</strong> dont l'univers et le contenu changent au fil des heures.</p>
             </section>
           </div>
         </article>
@@ -101,14 +101,14 @@
         </article>
 
         <aside>
-          <a class="projet-nav" id="projet-prev" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-prev" href="/projets/classic-expert.php" title="">
             <span>Previous project</span>
-            <span class="projet-name">Saupiquet</span>
+            <span class="projet-name">Classic Expert</span>
           </a>
           <a id="projet-top" href="" title="Go to Top">Top</a>
-          <a class="projet-nav" id="projet-next" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-next" href="/projets/saupiquet.php" title="">
             <span>Next project</span>
-            <span class="projet-name">Le petit Marseillais</span>
+            <span class="projet-name">Saupiquet</span>
           </a>
         </aside>
 

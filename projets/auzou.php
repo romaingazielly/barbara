@@ -26,18 +26,19 @@
 
           <div class="infos-projet">
             <section class="date">
-              <p class="bold">Project date:</p>
-              <p>Summer 2013</p>
+              <p class="bold">Date :</p>
+              <p>Été - Automne 2016</p>
             </section>
             
             <section class="mission">
-              <p class="bold">Mission:</p>
-              <p>Defining a new global identity for the floating Café «La Balle au bond». New image should express fresh & peculiar atmosphere of the place.</p>
+              <p class="bold">Mission :</p>
+              <p>Proposer une nouvelle plateforme e-commerce et un catalogue en ligne qui sauront refléter la richesse des collections d’Auzou.</p>
             </section>
             
             <section class="description">
-              <p class="bold">About project:</p>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p class="bold">Description :</p>
+              <p>Les éditions Auzou proposent plusieurs collections de <strong>romans et albums illustrés à destination des 0-13ans</strong>.
+              Pour satisfaire l'objectifs d'accroissement du nombre de visites et de ventes en ligne, un nouveau site e-commerce a été pensé. <strong>L'univers riche et coloré</strong> assure une expérience immersive pour petits et grands avec l'utilisation d'un background dynamique. <strong>Le tunnel d'achat et les étapes de création de compte ont été optimisés</strong> pour une utilisation simplifiée sur tous les devices.</p>
             </section>
           </div>
         </article>
@@ -72,14 +73,14 @@
         </article>
 
         <aside>
-          <a class="projet-nav" id="projet-prev" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-prev" href="/projets/wilkinson-summer.php" title="Voir le projet Wilkinson Summer">
             <span>Previous project</span>
-            <span class="projet-name">Saupiquet</span>
+            <span class="projet-name">Wilkinson Summer</span>
           </a>
           <a id="projet-top" href="" title="Go to Top">Top</a>
-          <a class="projet-nav" id="projet-next" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-next" href="/projets/classic-expert.php" title="Voir le projet Classic Expert">
             <span>Next project</span>
-            <span class="projet-name">Le petit Marseillais</span>
+            <span class="projet-name">Classic Expert</span>
           </a>
         </aside>
 

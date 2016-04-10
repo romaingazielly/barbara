@@ -53,7 +53,7 @@
         </div>
       </header>
 
-      <section class="container projets classic-expert">
+      <section class="container projets wilkinson-summer">
 
         <article class="intro-projet">
           <div class="title-projet">
@@ -62,18 +62,19 @@
 
           <div class="infos-projet">
             <section class="date">
-              <p class="bold">Project date:</p>
-              <p>Summer 2013</p>
+              <p class="bold">Date :</p>
+              <p>Été 2015</p>
             </section>
             
             <section class="mission">
-              <p class="bold">Mission:</p>
-              <p>Defining a new global identity for the floating Café «La Balle au bond». New image should express fresh & peculiar atmosphere of the place.</p>
+              <p class="bold">Mission :</p>
+              <p>Pousser les fans à se déplacer in-store grâce à la création d’un duo d’applications Facebook sur le thème des vacances.</p>
             </section>
             
             <section class="description">
-              <p class="bold">About project:</p>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p class="bold">Description :</p>
+              <p>Wilkinson Summer est un <strong>duo d'applications Facebook</strong> visant à développer les ventes de rasoirs et recruter des fans durant la période estivale.
+              Les pages <strong>Wilkinson pour lui & Wilkinson pour elle</strong> proposent des <strong>univers funs et colorés</strong> qui invitent à l'aventure au masculin comme au féminin. Les hommes sont conviés à découvrir "quel aventurier sommeille en eux" à travers <strong>un quiz décalé</strong> tandis que l'application féminine propose aux participantes <strong>un instant gagnant</strong> autour des destinations rêvées.</p>
             </section>
           </div>
         </article>
@@ -84,14 +85,14 @@
         </article>
 
         <aside>
-          <a class="projet-nav" id="projet-prev" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-prev" href="/projets/igloo.php" title="Voir le projet L'Igloo">
             <span>Previous project</span>
-            <span class="projet-name">Saupiquet</span>
+            <span class="projet-name">L'Igloo</span>
           </a>
           <a id="projet-top" href="" title="Go to Top">Top</a>
-          <a class="projet-nav" id="projet-next" href="javascript:;" title="">
+          <a class="projet-nav" id="projet-next" href="/projets/auzou.php" title="Voir le projet Auzou">
             <span>Next project</span>
-            <span class="projet-name">Le petit Marseillais</span>
+            <span class="projet-name">Auzou</span>
           </a>
         </aside>
 

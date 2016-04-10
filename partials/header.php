@@ -26,7 +26,7 @@
           <li><a href="/projets/wilkinson-summer.php">Wilkinson Summer</a></li>
         </ul>
         <p><a href="">Moodboards</a></p>
-        <p><a href="/about.html">About</a></p>
+        <p><a href="/about.php">About</a></p>
         </div>
       </div>
     </nav>
