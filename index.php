@@ -42,7 +42,7 @@
                 <li><a href="projets/igloo.php">L'igloo immobilier</a></li>
                 <li><a href="projets/wilkinson-summer.php">Wilkinson Summer</a></li>
               </ul>
-              <p><a href="">Moodboards</a></p>
+              <p><a href="/moodboard.php" title="Moodboards">Moodboards</a></p>
               <p><a href="/about.php">About</a></p>
               </div>
             </div>
