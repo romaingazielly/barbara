@@ -223,6 +223,16 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 .about .contact #mail{font:1.71428571em "Open Sans"; /* 24 */ color:#6d7bff;}
 
 /*****************************/
+/* MOODBOARD                 */
+/*****************************/
+.moodboard{padding:140px 0 0 0;}
+.moodboard #lightgallery{display:flex; align-items:center; justify-content:center;}
+.moodboard .sticker{padding:30px; margin:20px;}
+.moodboard #lpm{background:#e42a56;}
+.moodboard #babyliss{background:#f3cf53;}
+.moodboard #pyramide{background:#68c8f9;}
+
+/*****************************/
 /* PROJECT                   */
 /*****************************/
 .page-projet header.small{box-shadow: 0 0px 30px rgba(0,0,0,.15)}

@@ -17,9 +17,9 @@ jQuery(document).ready(function($) {
 
 		// Windows
 		// Attention s'effectue également sur Tablette et Mobile
-		resizeHome();
+		resizePage('home');
 		$(window).resize(function(){ 
-			resizeHome();
+			resizePage('home');
 		});
 
 		// Slider projet Home
@@ -111,6 +111,14 @@ jQuery(document).ready(function($) {
 		});
 	}
 
+	// Moodboard
+	if( $('.container').hasClass('moodboard') ){
+		resizePage('moodboard');
+		$(window).resize(function(){ 
+			resizePage('moodboard');
+		});
+	}
+
 	
 	// Burger
 	$('.burger').on('click', function(){
@@ -121,7 +129,8 @@ jQuery(document).ready(function($) {
 	headerSmall();
 });
 
-function resizeHome() {
+function resizePage(page) {
+	console.log(page);
 	if (document.all) {
 		$h=document.body.clientHeight;
 		$w=document.body.clientWidth;
@@ -129,8 +138,14 @@ function resizeHome() {
 		$w=window.innerWidth;
 		$h=window.innerHeight;
 	}
-	console.log('window: '+$h, $w);
-	$('.home').css({ 'height': $h + 'px' }); // Header
+	
+	var footer = $('footer');
+	var footH = 0;
+	if(footer.length) {
+		footH = footer.height();
+	}
+
+	$('.'+page).css({ 'height': $h - footH + 'px' }); // Header
 }
 
 function sliderHome(compteur){
