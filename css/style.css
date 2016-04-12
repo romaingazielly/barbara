@@ -226,11 +226,27 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 /* MOODBOARD                 */
 /*****************************/
 .moodboard{padding:140px 0 0 0;}
-.moodboard #lightgallery{display:flex; align-items:center; justify-content:center;}
-.moodboard .sticker{padding:30px; margin:20px;}
+.moodboard #lightgallery{display:flex; align-items:center; justify-content:center; flex-wrap:wrap; width:70.714286%; /* 990 ÷ 1400 */ margin:30px auto 60px;}
+.moodboard .sticker{padding:30px; margin:0 20px 40px;}
 .moodboard #lpm{background:#e42a56;}
 .moodboard #babyliss{background:#f3cf53;}
+.moodboard #babyliss-maman{background:#ffa399;}
 .moodboard #pyramide{background:#68c8f9;}
+.moodboard #kinder{background:#ffb4cb;}
+.moodboard #slowcow{background:#0095c7;}
+.moodboard #hawaiian{background:#fce860;}
+.moodboard #saupiquet{background:#ff7e4b;}
+.moodboard #saupiquet2{background:#92b654;}
+.lg-sub-html{text-align:center;}
+.lg-sub-html h1{font:30px "LibreBaskerville-Regular"; color:#000; letter-spacing:.05em; padding:40px 0 20px;}
+.lg-sub-html p{font:14px/20px "PT Sans"; color:#000; margin:0; letter-spacing:.1em;}
+.lg-outer .lg{overflow:visible;}
+#lg-counter{font:400 14px "PT Sans"; color:#000;}
+#lg-counter-current{font-weight:700;}
+.controls{display:flex; align-items: center; justify-content: center; margin:20px 0 0 ;}
+.controls #lg-counter{padding:0 20px;}
+.controls .lg-prev {left: 20px; opacity:1; cursor:pointer;}
+.controls .lg-prev:after {content: ""; display:block; background:url('/images/arr-prev.png') no-repeat center/cover; width:13px; height:10px;}
 
 /*****************************/
 /* PROJECT                   */

@@ -22,15 +22,36 @@
       <section class="container moodboard">
 
         <div id="lightgallery">
-          <a class="sticker" id="lpm" href="/images/moodboard/lpm.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-            <img src="/images/moodboard/lpm.jpg" width="290" height="190" />
-          </a>
-          <a class="sticker" id="babyliss" href="/images/moodboard/babyliss.jpg">
-            <img src="/images/moodboard/babyliss.jpg" width="290" height="190" />
+
+          <a class="sticker" id="kinder" href="/images/moodboard/kinder.jpg">
+            <img src="/images/moodboard/kinder.jpg" width="290" height="190" />
           </a>
           <a class="sticker" id="pyramide" href="/images/moodboard/pyramide.jpg">
             <img src="/images/moodboard/pyramide.jpg" width="290" height="190" />
           </a>
+          <a class="sticker" id="babyliss-maman" href="/images/moodboard/babyliss-maman.jpg">
+            <img src="/images/moodboard/babyliss-maman.jpg" width="290" height="190" />
+          </a>
+          <a class="sticker" id="slowcow" href="/images/moodboard/slowcow.jpg">
+            <img src="/images/moodboard/slowcow.jpg" width="290" height="190" />
+          </a>
+          <a class="sticker" id="lpm" href="/images/moodboard/lpm.jpg" data-sub-html="<h1>Le Petit Marseillais</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p><div id='lg-counter'><span id='lg-counter-current'>5</span> / <span id='lg-counter-all'>9</span></div>">
+            <img src="/images/moodboard/lpm.jpg" width="290" height="190" />
+          </a>
+          <a class="sticker" id="babyliss" href="/images/moodboard/babyliss.jpg" data-sub-html="<h1>Babyliss</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p><div class='controls'><div class='lg-prev lg-icon' id='prev'></div><div id='lg-counter'><span id='lg-counter-current'>6</span> / <span id='lg-counter-all'>9</span></div></div>">
+            <img src="/images/moodboard/babyliss.jpg" width="290" height="190" />
+          </a>
+          <a class="sticker" id="hawaiian" href="/images/moodboard/hawaiian.jpg">
+            <img src="/images/moodboard/hawaiian.jpg" width="290" height="190" />
+          </a>
+          <a class="sticker" id="saupiquet" href="/images/moodboard/saupiquet.jpg">
+            <img src="/images/moodboard/saupiquet.jpg" width="290" height="190" />
+          </a>
+          <a class="sticker" id="saupiquet2" href="/images/moodboard/saupiquet2.jpg">
+            <img src="/images/moodboard/saupiquet2.jpg" width="290" height="190" />
+          </a>
+          
+
         </div>
 
       </section>
@@ -59,7 +80,7 @@
             enableSwipe: false,
             enableDrag: false,
             speed: 500
-          }); 
+          });
       });
     </script>
 </html>

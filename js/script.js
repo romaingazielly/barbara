@@ -113,9 +113,14 @@ jQuery(document).ready(function($) {
 
 	// Moodboard
 	if( $('.container').hasClass('moodboard') ){
-		resizePage('moodboard');
-		$(window).resize(function(){ 
-			resizePage('moodboard');
+		//resizePage('moodboard');
+		// $(window).resize(function(){ 
+		// 	resizePage('moodboard');
+		// });
+		$('#lightgallery').on('onSlideItemLoad.lg',function(event){
+		    $('#prev').on('click', function(event){
+				$('.lg-actions .lg-prev').trigger('click');
+			});
 		});
 	}
 

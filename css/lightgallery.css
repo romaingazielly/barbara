@@ -670,7 +670,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     bottom:-200px;
     height:200px;
     background:#fff;
-    text-align: left;
 }
 .lg-outer .lg-inner {
   width: 100%;
