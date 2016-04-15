@@ -105,7 +105,7 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 .home .projet-infos h1 a{color:#000;}
 .home .projet-infos h1 span{display:inline-block; position:relative; padding:0 0 15px 0;}
 .home .projet-infos h1 span:last-child{padding:0;}
-.home .projet-infos h1 span:after{position:relative; display:block; content:""; width:100%; height:5px; background:#3653ff; margin:auto; z-index:2;}
+.home .projet-infos h1 span:after{position:relative; display:block; content:""; width:100%; height:5px; background:#3653ff; margin:auto; z-index:2; transition:background .5s ease-in-out;}
 .home .projet-infos p.legend{font:1.21428571em "LibreBaskerville-Italic"; /* 17px */ text-align:center; color:#090909; letter-spacing:.1em;}
 .home .projet-infos a.projet-link{position:absolute; bottom:0; width:58.461538%; /* 380 ÷ 650 */ text-align:center; text-decoration:none; font:700 1em "PT Sans"; color:#090909; border-bottom:solid 1px #000; padding:15px 0; letter-spacing:.1em; left:50%; margin-left:-29.230769%;}
 .home .projet-infos a.projet-link:after{content:""; display:block; position:absolute; left:50%; bottom:-3px; margin:0 0 0 -45px; width:90px; height:5px; background:#090909; transition:all .3s ease-in-out;}
@@ -152,15 +152,15 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 
 .home .projet .preview .pic#pic-animaux-sante{background:url('../images/projets/animaux-sante-big.jpg') center center / cover no-repeat;}
 .home .projet .preview .pic#pic-animaux-sante:after{background:url('../images/projets/animaux-sante-big-hover.jpg') left center / cover no-repeat;}
+.home .projet .preview .pic#pic-animaux-sante .border{border-color:#8bf4d4;}
 .home .projet#animaux-sante .projet-infos{background:#8bf4d4;}
 .home .projet#animaux-sante .projet-infos h1 span:after{background:#02dca6;}
-.home .projet#animaux-sante .preview .pic .border{border-color:#8bf4d4;}
 
 .home .projet .preview .pic#pic-igloo{background:url('../images/projets/igloo-big.jpg') center center / cover no-repeat;}
 .home .projet .preview .pic#pic-igloo:after{background:url('../images/projets/igloo-big-hover.jpg') left center / cover no-repeat;}
+.home .projet .preview .pic#pic-animaux-sante .border{border-color:#12e6e1;}
 .home .projet#igloo .projet-infos{background:#12e6e1;}
 .home .projet#igloo .projet-infos h1 span:after{background:#007976;}
-.home .projet#igloo .preview .pic .border{border-color:#12e6e1;}
 
 .home .projet .preview .pic#pic-wilkinson-summer{background:url('../images/projets/wilkinson-summer-big.jpg') center center / cover no-repeat;}
 .home .projet .preview .pic#pic-wilkinson-summer:after{background:url('../images/projets/wilkinson-summer-big-hover.jpg') left center / cover no-repeat;}
@@ -227,7 +227,8 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 /*****************************/
 .moodboard{padding:140px 0 0 0;}
 .moodboard #lightgallery{display:flex; align-items:center; justify-content:center; flex-wrap:wrap; width:70.714286%; /* 990 ÷ 1400 */ margin:30px auto 60px;}
-.moodboard .sticker{padding:30px; margin:0 20px 40px;}
+.moodboard .sticker{padding:30px; margin:0 2.020202% 4.040404%; width:29.292929%; /* 290 ÷ 990 */}
+.moodboard .mini-sticker{width:100%;}
 .moodboard #lpm{background:#e42a56;}
 .moodboard #babyliss{background:#f3cf53;}
 .moodboard #babyliss-maman{background:#ffa399;}
@@ -237,8 +238,9 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 .moodboard #hawaiian{background:#fce860;}
 .moodboard #saupiquet{background:#ff7e4b;}
 .moodboard #saupiquet2{background:#92b654;}
+.lg-toolbar.group{display:none;}
 .lg-sub-html{text-align:center;}
-.lg-sub-html h1{font:30px "LibreBaskerville-Regular"; color:#000; letter-spacing:.05em; padding:40px 0 20px;}
+.lg-sub-html h1{font:30px "LibreBaskerville-Regular"; color:#000; letter-spacing:.05em; padding:25px 0 20px;}
 .lg-sub-html p{font:14px/20px "PT Sans"; color:#000; margin:0; letter-spacing:.1em;}
 .lg-outer .lg{overflow:visible;}
 #lg-counter{font:400 14px "PT Sans"; color:#000;}
@@ -247,6 +249,9 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 .controls #lg-counter{padding:0 20px;}
 .controls .lg-prev {left: 20px; opacity:1; cursor:pointer;}
 .controls .lg-prev:after {content: ""; display:block; background:url('/images/arr-prev.png') no-repeat center/cover; width:13px; height:10px;}
+.controls .lg-next {left: 20px; opacity:1; cursor:pointer;}
+.controls .lg-next:after {content: ""; display:block; background:url('/images/arr-next.png') no-repeat center/cover; width:13px; height:10px;}
+
 
 /*****************************/
 /* PROJECT                   */

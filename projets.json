@@ -31,7 +31,7 @@
 		{
 			"id": "igloo",
 			"name": "L'igloo",
-			"title": "L'igloo",
+			"title": "<a href='projets/igloo.php'><span>L'igloo</span></a>",
 			"subtitle": "Estate search engine",
 			"couleur": "#12e6e1"
 		},

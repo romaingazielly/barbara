@@ -46,27 +46,27 @@ jQuery(document).ready(function($) {
 		});
 
 		// Changement de projet au scroll (beta)
-		// var isScrolling;
-		// $('.projet').on('mousewheel', function(event) {
-		// 	if (isScrolling == true) return;
+		var isScrolling;
+		$('.projet').on('mousewheel', function(event) {
+			if (isScrolling == true) return;
 
-		//     if (event.originalEvent.wheelDelta >= 0) {
-		//         $('a#prev-projet').trigger('click');
-		//     }
-		//     else {
-		//         $('a#next-projet').trigger('click');
-		//     }
+		    if (event.originalEvent.wheelDelta >= 0) {
+		        $('a#prev-projet').trigger('click');
+		    }
+		    else {
+		        $('a#next-projet').trigger('click');
+		    }
 
-		//     isScrolling = true;
+		    isScrolling = true;
 
-		//     console.log(event.originalEvent.wheelDelta, isScrolling)
+		    console.log(event.originalEvent.wheelDelta, isScrolling)
 
 		    
 
-		//     window.setTimeout(function () {
-		//     	isScrolling = false;
-		//     }, 1000);
-		// });
+		    window.setTimeout(function () {
+		    	isScrolling = false;
+		    }, 1500);
+		});
 
 		// Changement du projet au clavier
 		$(document).keydown(function(e) {
@@ -155,30 +155,27 @@ function resizePage(page) {
 
 function sliderHome(compteur){
 	var index = compteur-1;
-	console.log(compteur);
-	$('.home .projet').attr('id', dataHome.projets[index].id);
+	$('.home .projet').attr('id', dataHome.projets[index].id); // Ajout l'id du projet pour le CSS
+
+	// Changements des infos
 	$('#miniature-projet').html('<img src="/images/projets/'+ dataHome.projets[index].id +'-mini.png" srcset="/images/projets/'+ dataHome.projets[index].id +'-mini-x2.png 2x" alt="'+ dataHome.projets[index].title +'" />');
 	$('#titre-projet').html(dataHome.projets[index].title); // Titre
 	$('#subtitle-projet').html(dataHome.projets[index].subtitle);
 	$('#num-projet').html(compteur); // Numérotation
 	$('.projet-infos a').attr('href', '/projets/'+ dataHome.projets[index].id +'.php')
-						.attr('title', dataHome.projets[index].name);
+	 					.attr('title', dataHome.projets[index].name);
+	// Animations
+	TweenLite.fromTo( $('#miniature-projet'), 2, {marginTop:70, autoAlpha:0}, {marginTop:0, autoAlpha:1});
+	TweenLite.fromTo( $('#titre-projet'), 2, {autoAlpha:0}, {autoAlpha:1});
+	TweenLite.fromTo( $('#subtitle-projet'), 2, {autoAlpha:0}, {autoAlpha:1});
 
 	// Si 1 -> 8
 	memory.push(compteur);
 	lastCompteur = memory[memory.length - 2];
-	//console.log(memory, lastCompteur);
-
-
-	// if(compteur == 8){
-	// 	TweenLite.fromTo( $('.pic-slider'), .85, {y:'800%'}, {y:'0'} );
-	// }
 
 	TweenLite.to($('.pic-slider'), 2,{y: '-'+index*100+'%', ease:Power3.easeOut, onComplete:function(){
 		//alert('complete');
 	}});
-	//TweenLite.fromTo( $('#pic-balle-au-bond'), 2, {css: {opacity:1}}, { css:{opacity:0} });
-	//TweenLite.fromTo( $('#pic-saupiquet'), 9, {css: {opacity:0}}, { css:{opacity:1} });
 }
 
 function headerSmall(){
