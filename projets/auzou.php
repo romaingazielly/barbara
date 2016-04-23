@@ -73,12 +73,12 @@
         </article>
 
         <aside>
-          <a class="projet-nav" id="projet-prev" href="/projets/wilkinson-summer.php" title="Voir le projet Wilkinson Summer">
+          <a class="projet-nav" id="projet-prev" href="/projets/wilkinson-summer" title="Voir le projet Wilkinson Summer">
             <span>Previous project</span>
             <span class="projet-name">Wilkinson Summer</span>
           </a>
           <a id="projet-top" href="" title="Go to Top">Top</a>
-          <a class="projet-nav" id="projet-next" href="/projets/classic-expert.php" title="Voir le projet Classic Expert">
+          <a class="projet-nav" id="projet-next" href="/projets/classic-expert" title="Voir le projet Classic Expert">
             <span>Next project</span>
             <span class="projet-name">Classic Expert</span>
           </a>

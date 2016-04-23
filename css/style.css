@@ -40,7 +40,7 @@
 /*****************************/
 /* GLOBAL                    */
 /*****************************/
-body{font-size:14px;}
+body{font-size:14px; opacity:0; transition:opacity .4s ease-in-out;}
 body.noscroll{overflow:hidden;}
 .container{position:relative;}
 
@@ -80,7 +80,7 @@ header.color{background:#fff;}
 /* Menu */
 .sub-head{position:relative; z-index:2;height:100%; width:100%; display:-webkit-flex; display:-ms-flexbox; display:flex; -webkit-justify-content:space-between; -ms-flex-pack:justify; justify-content:space-between;}
 nav{display:none; position:fixed; left:0; top:0; bottom:0; background:#fff; width:46.428571%; /* 650 ÷ 1400 */}
-nav:after{content:""; position:fixed; background:transparent; bottom:0; top:0; left:46.428571%; right:0;}
+nav:after{content:""; position:fixed; background:transparent; bottom:0; top:0; left:46.428571%; right:0; transition:background .5s ease-in-out;}
 nav div.vert-center{display:-webkit-flex;display:-ms-flexbox;display:flex; -webkit-align-items:center; -ms-flex-align:center; align-items:center; margin:90px 0 0 7.6923077%; /* 50 ÷ 650 */ width:100%;}
 nav div.vert-center div{width:100%;}
 nav p{margin:0 0 60px 0;}
@@ -158,7 +158,7 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 
 .home .projet .preview .pic#pic-igloo{background:url('../images/projets/igloo-big.jpg') center center / cover no-repeat;}
 .home .projet .preview .pic#pic-igloo:after{background:url('../images/projets/igloo-big-hover.jpg') left center / cover no-repeat;}
-.home .projet .preview .pic#pic-animaux-sante .border{border-color:#12e6e1;}
+.home .projet .preview .pic#pic-igloo .border{border-color:#12e6e1;}
 .home .projet#igloo .projet-infos{background:#12e6e1;}
 .home .projet#igloo .projet-infos h1 span:after{background:#007976;}
 
@@ -227,7 +227,7 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 /*****************************/
 .moodboard{padding:140px 0 0 0;}
 .moodboard #lightgallery{display:flex; align-items:center; justify-content:center; flex-wrap:wrap; width:70.714286%; /* 990 ÷ 1400 */ margin:30px auto 60px;}
-.moodboard .sticker{padding:30px; margin:0 2.020202% 4.040404%; width:29.292929%; /* 290 ÷ 990 */}
+.moodboard .sticker{padding:3.031%; margin:0 2.020202% 4.040404%; width:29.292929%; /* 290 ÷ 990 */}
 .moodboard .mini-sticker{width:100%;}
 .moodboard #lpm{background:#e42a56;}
 .moodboard #babyliss{background:#f3cf53;}

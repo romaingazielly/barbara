@@ -70,8 +70,7 @@
     <script type="text/javascript">
       $(document).ready(function() {
           $("#lightgallery").lightGallery({
-            width: '700px',
-            height: '470px',
+            width: '50%',
             mode: 'lg-fade',
             addClass: 'fixed-size',
             counter: true,

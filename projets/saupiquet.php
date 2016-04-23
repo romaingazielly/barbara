@@ -32,16 +32,16 @@
               <div>
               <p><a href="">Projects</a></p>
               <ul>
-                <li><a href="/projets/animaux-sante.php">Animaux Santé</a></li>
-                <li><a href="/projets/saupiquet.php">Saupiquet</a></li>
-                <li><a href="/projets/balle-au-bond.php">La balle au bond</a></li>
-                <li><a href="/projets/le-petit-marseillais.php">Le Petit Marseillais</a></li>
-                <li><a href="/projets/auzou.php">Auzou éditions</a></li>
-                <li><a href="/projets/classic-expert.php">Classic Expert</a></li>
-                <li><a href="/projets/igloo.php">L'igloo immobilier</a></li>
-                <li><a href="/projets/wilkinson-summer.php">Wilkinson Summer</a></li>
+                <li><a href="/projets/animaux-sante">Animaux Santé</a></li>
+                <li><a href="/projets/saupiquet">Saupiquet</a></li>
+                <li><a href="/projets/balle-au-bond">La balle au bond</a></li>
+                <li><a href="/projets/le-petit-marseillais">Le Petit Marseillais</a></li>
+                <li><a href="/projets/auzou">Auzou éditions</a></li>
+                <li><a href="/projets/classic-expert">Classic Expert</a></li>
+                <li><a href="/projets/igloo">L'igloo immobilier</a></li>
+                <li><a href="/projets/wilkinson-summer">Wilkinson Summer</a></li>
               </ul>
-              <p><a href="/moodboard.php" title="Moodboards">Moodboards</a></p>
+              <p><a href="/moodboard" title="Moodboards">Moodboards</a></p>
               <p><a href="/about.html">About</a></p>
               </div>
             </div>
@@ -108,12 +108,12 @@
         </article>
 
         <aside>
-          <a class="projet-nav" id="projet-prev" href="/projets/balle-au-bond.php" title="Voir le projet La Balle au Bond">
+          <a class="projet-nav" id="projet-prev" href="/projets/balle-au-bond" title="Voir le projet La Balle au Bond">
             <span>Previous project</span>
             <span class="projet-name">La Balle au bond</span>
           </a>
           <a id="projet-top" href="" title="Go to Top">Top</a>
-          <a class="projet-nav" id="projet-next" href="/projets/le-petit-marseillais.php" title="Voir le projet Le Petit Marseillais">
+          <a class="projet-nav" id="projet-next" href="/projets/le-petit-marseillais" title="Voir le projet Le Petit Marseillais">
             <span>Next project</span>
             <span class="projet-name">Le petit Marseillais</span>
           </a>

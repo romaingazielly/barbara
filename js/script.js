@@ -3,7 +3,12 @@ var $window = $(window),
 	$w = $window.width(),
 	dataHome;
 	var lastCompteur;
-		var memory = [];
+	var memory = [];
+
+// Smooth loading
+$(window).load(function() {
+	$('body').css('opacity', 1);
+});
 
 jQuery(document).ready(function($) {
 
@@ -81,6 +86,31 @@ jQuery(document).ready(function($) {
 		    }
 		    e.preventDefault();
 		});
+
+		// Test Ajax
+		$('.projet-link').on('click', function(event) {
+			event.preventDefault();
+			
+			var a = $(this);
+			var url = a.attr('href');
+
+			history.pushState({key : 'value'}, 'titre', url); // Changement de l'URL
+			$.get(url, function(data) {
+				var body = $('body');
+				body.fadeOut('400', function() {
+					body.html(data);
+					body.removeClass();
+					body.addClass('page-projet'); // A dynamiser
+					body.fadeIn('400');
+				});
+			});
+		});
+
+		window.onpopstate = function(event) {
+			if(event.state == null){
+				document.location.href = '/';
+			}
+		}
 	}
 
 	// Projets
@@ -162,7 +192,7 @@ function sliderHome(compteur){
 	$('#titre-projet').html(dataHome.projets[index].title); // Titre
 	$('#subtitle-projet').html(dataHome.projets[index].subtitle);
 	$('#num-projet').html(compteur); // Numérotation
-	$('.projet-infos a').attr('href', '/projets/'+ dataHome.projets[index].id +'.php')
+	$('.projet-infos a').attr('href', '/projets/'+ dataHome.projets[index].id)
 	 					.attr('title', dataHome.projets[index].name);
 	// Animations
 	TweenLite.fromTo( $('#miniature-projet'), 2, {marginTop:70, autoAlpha:0}, {marginTop:0, autoAlpha:1});

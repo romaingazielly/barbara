@@ -33,17 +33,17 @@
               <div>
               <p><a href="">Projects</a></p>
               <ul>
-                <li><a href="projets/animaux-sante.php">Animaux Santé</a></li>
-                <li><a href="projets/saupiquet.php">Saupiquet</a></li>
-                <li><a href="projets/balle-au-bond.php">La balle au bond</a></li>
-                <li><a href="projets/le-petit-marseillais.php">Le Petit Marseillais</a></li>
-                <li><a href="projets/auzou.php">Auzou éditions</a></li>
-                <li><a href="projets/classic-expert.php">Classic Expert</a></li>
-                <li><a href="projets/igloo.php">L'igloo immobilier</a></li>
-                <li><a href="projets/wilkinson-summer.php">Wilkinson Summer</a></li>
+                <li><a href="projets/animaux-sante">Animaux Santé</a></li>
+                <li><a href="projets/saupiquet">Saupiquet</a></li>
+                <li><a href="projets/balle-au-bond">La balle au bond</a></li>
+                <li><a href="projets/le-petit-marseillais">Le Petit Marseillais</a></li>
+                <li><a href="projets/auzou">Auzou éditions</a></li>
+                <li><a href="projets/classic-expert">Classic Expert</a></li>
+                <li><a href="projets/igloo">L'igloo immobilier</a></li>
+                <li><a href="projets/wilkinson-summer">Wilkinson Summer</a></li>
               </ul>
-              <p><a href="/moodboard.php" title="Moodboards">Moodboards</a></p>
-              <p><a href="/about.php">About</a></p>
+              <p><a href="/moodboard" title="Moodboards">Moodboards</a></p>
+              <p><a href="/about">About</a></p>
               </div>
             </div>
           </nav>
@@ -62,10 +62,10 @@
                   <div id="miniature-projet">
                     <img src="images/projets/balle-au-bond-mini.png" srcset="images/projets/balle-au-bond-mini-x2.png 2x" alt="La balle au bond" />
                   </div>
-                  <h1 id="titre-projet"><a href="/projets/balle-au-bond.php" title="La balle au bond"><span>La balle</span><br/><span>au bond</span></a></h1>
+                  <h1 id="titre-projet"><a href="/projets/balle-au-bond" title="La balle au bond"><span>La balle</span><br/><span>au bond</span></a></h1>
                   <p id="subtitle-projet" class="legend">Off & online branding</p>
                 </div>
-                <a class="projet-link" href="/projets/balle-au-bond.php" title="La balle au bond">View project</a>
+                <a class="projet-link" href="/projets/balle-au-bond" title="La balle au bond">View project</a>
               </div>
             </div>
 
@@ -89,35 +89,35 @@
                 <div class="pic-slider" style="transform: translate3d(0,0,0);">
                   <div class="pic" id="pic-balle-au-bond">
                     <div class="border"></div>
-                    <a class="img-link" href="/projets/balle-au-bond.php" title="Projet : La balle au bond"></a>
+                    <a class="img-link" href="/projets/balle-au-bond" title="Projet : La balle au bond"></a>
                   </div>
                   <div class="pic" id="pic-saupiquet">
                     <div class="border"></div>
-                    <a class="img-link" href="/projets/saupiquet.php" title="Projet : Saupiquet"></a>
+                    <a class="img-link" href="/projets/saupiquet" title="Projet : Saupiquet"></a>
                   </div>
                   <div class="pic" id="pic-le-petit-marseillais">
                     <div class="border"></div>
-                    <a class="img-link" href="/projets/le-petit-marseillais.php" title="Projet : Le Petit Marseillais"></a>
+                    <a class="img-link" href="/projets/le-petit-marseillais" title="Projet : Le Petit Marseillais"></a>
                   </div>
                   <div class="pic" id="pic-animaux-sante">
                     <div class="border"></div>
-                    <a class="img-link" href="/projets/animaux-sante.php" title="Projet : Animaux Santé"></a>
+                    <a class="img-link" href="/projets/animaux-sante" title="Projet : Animaux Santé"></a>
                   </div>
                   <div class="pic" id="pic-igloo">
                     <div class="border"></div>
-                    <a class="img-link" href="/projets/igloo.php" title="Projet : L'igloo"></a>
+                    <a class="img-link" href="/projets/igloo" title="Projet : L'igloo"></a>
                   </div>
                   <div class="pic" id="pic-wilkinson-summer">
                     <div class="border"></div>
-                    <a class="img-link" href="/projets/wilkinson-summer.php" title="Projet : Wilkinson Summer"></a>
+                    <a class="img-link" href="/projets/wilkinson-summer" title="Projet : Wilkinson Summer"></a>
                   </div>
                   <div class="pic" id="pic-auzou">
                     <div class="border"></div>
-                    <a class="img-link" href="/projets/auzou.php" title="Projet : Auzou"></a>
+                    <a class="img-link" href="/projets/auzou" title="Projet : Auzou"></a>
                   </div>
                   <div class="pic" id="pic-classic-expert">
                     <div class="border"></div>
-                    <a class="img-link" href="/projets/classic-expert.php" title="Projet : Classic Expert"></a>
+                    <a class="img-link" href="/projets/classic-expert" title="Projet : Classic Expert"></a>
                   </div>
                 </div>
               </div>
