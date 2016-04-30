@@ -114,7 +114,7 @@ jQuery(document).ready(function($) {
 	}
 
 	// Projets
-	if( $('.container').hasClass('projets') ){
+	if( $('body').hasClass('page-projet') ){
 
 
 		$('#projet-top').on('click', function(event) {
@@ -124,6 +124,20 @@ jQuery(document).ready(function($) {
 
 		$(document).scroll(function() {
 			headerSmall();
+		});
+
+		// Changement du projet au clavier
+		$(document).keydown(function(e) {
+			switch(e.which) {
+		        case 37: $('#projet-prev')[0].click(); // left
+		        break;
+
+		        case 39: $('#projet-next')[0].click(); // right
+		        break;
+
+		        default: return;
+		    }
+		    e.preventDefault();
 		});
 	}
 
