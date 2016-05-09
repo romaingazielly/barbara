@@ -57,7 +57,7 @@
 
         <article class="intro-projet">
           <div class="title-projet">
-            <img src="/images/projets/igloo-mini.png"><h1><span>L’igloo</span><br/><span>immobilier</span></h1>
+            <img src="/images/projets/igloo/igloo-mini.png"><h1><span>L’igloo</span><br/><span>immobilier</span></h1>
           </div>
 
           <div class="infos-projet">
@@ -81,35 +81,35 @@
         <article class="gallerie">
 
           <section class="full nomarg">
-            <img src="/images/projets/igloo-full.jpg">
+            <img src="/images/projets/igloo/igloo-full.jpg">
           </section>
 
           <section class="full">
-            <img src="/images/projets/igloo-full-2.jpg">
+            <img src="/images/projets/igloo/igloo-full-2.jpg">
           </section>
 
           <section class="solo">
-            <img src="/images/projets/igloo-cover-2.jpg">
+            <img src="/images/projets/igloo/igloo-cover-2.jpg">
           </section>
 
           <section class="full nomarg">
-            <img src="/images/projets/igloo-full-3.jpg">
+            <img src="/images/projets/igloo/igloo-full-3.jpg">
           </section>
 
           <section class="full nomarg">
-            <img src="/images/projets/igloo-full-4.jpg">
+            <img src="/images/projets/igloo/igloo-full-4.jpg">
           </section>
 
           <section class="solo">
-            <img src="/images/projets/igloo-cover-3.jpg">
+            <img src="/images/projets/igloo/igloo-cover-3.jpg">
           </section>
 
           <section class="solo">
-            <img src="/images/projets/igloo-cover-4.jpg">
+            <img src="/images/projets/igloo/igloo-cover-4.jpg">
           </section>
 
           <section class="solo">
-            <img src="/images/projets/igloo-cover-5.jpg">
+            <img src="/images/projets/igloo/igloo-cover-5.jpg">
           </section>
 
         </article>

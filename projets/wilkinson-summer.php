@@ -57,7 +57,7 @@
 
         <article class="intro-projet">
           <div class="title-projet">
-            <img src="/images/projets/wilkinson-summer-mini.png"><h1><span>Wilkinson</span><br/><span>Summer</span></h1>
+            <img src="/images/projets/wilkinson-summer/wilkinson-summer-mini.png"><h1><span>Wilkinson</span><br/><span>Summer</span></h1>
           </div>
 
           <div class="infos-projet">
@@ -81,20 +81,20 @@
 
         <article class="gallerie">
           <section class="full">
-            <img src="/images/projets/wilkinson-summer-full.jpg" srcset="/images/projets/wilkinson-summer-full-x2.jpg 2x" alt="Wilkinson Summer">
+            <img src="/images/projets/wilkinson-summer/wilkinson-summer-full.jpg" srcset="/images/projets/wilkinson-summer/wilkinson-summer-full-x2.jpg 2x" alt="Wilkinson Summer">
           </section>
 
           <section class="full nomarg">
-            <img src="/images/projets/wilkinson-summer-full2.jpg" srcset="/images/projets/wilkinson-summer-full2-x2.jpg 2x" alt="Wilkinson Summer">
+            <img src="/images/projets/wilkinson-summer/wilkinson-summer-full2.jpg" srcset="/images/projets/wilkinson-summer/wilkinson-summer-full2-x2.jpg 2x" alt="Wilkinson Summer">
           </section>
 
           <section class="full">
-            <img src="/images/projets/wilkinson-summer-full3.jpg" srcset="/images/projets/wilkinson-summer-full3-x2.jpg 2x" alt="Wilkinson Summer">
+            <img src="/images/projets/wilkinson-summer/wilkinson-summer-full3.jpg" srcset="/images/projets/wilkinson-summer/wilkinson-summer-full3-x2.jpg 2x" alt="Wilkinson Summer">
           </section>
 
           <section class="double">
-            <img src="/images/projets/wilkinson-summer-double-1.jpg" srcset="/images/projets/wilkinson-summer-double-1.jpg 2x" alt="Wilkinson Summer">
-            <img src="/images/projets/wilkinson-summer-double-2.jpg" srcset="/images/projets/wilkinson-summer-double-2.jpg 2x" alt="Wilkinson Summer">
+            <img src="/images/projets/wilkinson-summer/wilkinson-summer-double-1.jpg" srcset="/images/projets/wilkinson-summer/wilkinson-summer-double-1.jpg 2x" alt="Wilkinson Summer">
+            <img src="/images/projets/wilkinson-summer/wilkinson-summer-double-2.jpg" srcset="/images/projets/wilkinson-summer/wilkinson-summer-double-2.jpg 2x" alt="Wilkinson Summer">
           </section>
 
         </article>

@@ -57,7 +57,7 @@
 
         <article class="intro-projet">
           <div class="title-projet">
-            <img src="/images/projets/animaux-sante-mini.png"><h1><span>Animaux</span><br/><span>Santé</span></h1>
+            <img src="/images/projets/animaux-sante/animaux-sante-mini.png"><h1><span>Animaux</span><br/><span>Santé</span></h1>
           </div>
 
           <div class="infos-projet">
@@ -81,25 +81,25 @@
         <article class="gallerie">
           
           <section class="full">
-            <img src="/images/projets/animaux-sante-full.jpg" srcset="/images/projets/animaux-sante-full-x2.jpg 2x" alt="Animaux Santé">
+            <img src="/images/projets/animaux-sante/animaux-sante-full.jpg" srcset="/images/projets/animaux-sante/animaux-sante-full-x2.jpg 2x" alt="Animaux Santé">
           </section>
 
           <section class="full">
-            <img src="/images/projets/animaux-sante-full2.jpg" srcset="/images/projets/animaux-sante-full2-x2.jpg 2x" alt="Animaux Santé">
+            <img src="/images/projets/animaux-sante/animaux-sante-full2.jpg" srcset="/images/projets/animaux-sante/animaux-sante-full2-x2.jpg 2x" alt="Animaux Santé">
           </section>
 
           <section class="double">
-            <img src="/images/projets/animaux-sante-double-1.jpg" srcset="/images/projets/animaux-sante-double-1-x2.jpg 2x" alt="Animaux Santé">
-            <img src="/images/projets/animaux-sante-double-2.jpg" srcset="/images/projets/animaux-sante-double-2-x2.jpg 2x" alt="Animaux Santé">
+            <img src="/images/projets/animaux-sante/animaux-sante-double-1.jpg" srcset="/images/projets/animaux-sante/animaux-sante-double-1-x2.jpg 2x" alt="Animaux Santé">
+            <img src="/images/projets/animaux-sante/animaux-sante-double-2.jpg" srcset="/images/projets/animaux-sante/animaux-sante-double-2-x2.jpg 2x" alt="Animaux Santé">
           </section>
 
           <section class="full">
-            <img src="/images/projets/animaux-sante-full3.jpg" srcset="/images/projets/animaux-sante-full3-x2.jpg 2x" alt="Animaux Santé">
+            <img src="/images/projets/animaux-sante/animaux-sante-full3.jpg" srcset="/images/projets/animaux-sante/animaux-sante-full3-x2.jpg 2x" alt="Animaux Santé">
           </section>
 
           <section class="double">
-            <img src="/images/projets/animaux-sante-double-3.jpg" srcset="/images/projets/animaux-sante-double-3-x2.jpg 2x" alt="Animaux Santé">
-            <img src="/images/projets/animaux-sante-double-4.jpg" srcset="/images/projets/animaux-sante-double-4-x2.jpg 2x" alt="Animaux Santé">
+            <img src="/images/projets/animaux-sante/animaux-sante-double-3.jpg" srcset="/images/projets/animaux-sante/animaux-sante-double-3-x2.jpg 2x" alt="Animaux Santé">
+            <img src="/images/projets/animaux-sante/animaux-sante-double-4.jpg" srcset="/images/projets/animaux-sante/animaux-sante-double-4-x2.jpg 2x" alt="Animaux Santé">
           </section>
 
         </article>

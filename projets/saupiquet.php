@@ -97,10 +97,6 @@
             <img src="/images/projets/saupiquet-double-2.jpg">
           </section>
 
-          <section class="solo">
-            <img src="/images/projets/saupiquet-cover-2.jpg">
-          </section>
-
           <section class="full nomarg">
             <img src="/images/projets/saupiquet-full-4.jpg">
           </section>

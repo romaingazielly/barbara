@@ -60,7 +60,7 @@
               <div class="proj-left">
                 <div class="resume">
                   <div id="miniature-projet">
-                    <img src="images/projets/balle-au-bond-mini.png" srcset="images/projets/balle-au-bond-mini-x2.png 2x" alt="La balle au bond" />
+                    <img src="images/projets/balle-au-bond/balle-au-bond-mini.png" srcset="images/projets/balle-au-bond/balle-au-bond-mini-x2.png 2x" alt="La balle au bond" />
                   </div>
                   <h1 id="titre-projet"><a href="/projets/balle-au-bond" title="La balle au bond"><span>La balle</span><br/><span>au bond</span></a></h1>
                   <p id="subtitle-projet" class="legend">Off & online branding</p>

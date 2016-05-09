@@ -132,50 +132,50 @@ nav ul li a{color:rgba(43,43,43,.57); text-decoration:none; letter-spacing:.1em;
 .home .preview .pic .border{position:absolute; border:solid 5px; height:90%; width:90%; top:5%; left:5%; pointer-events:none;}
 .home .preview .pic .img-link{position:absolute; display:block; top:0; left:0; right:0; bottom:0; z-index:2;}
 /* Themes */
-.home .projet .preview .pic#pic-balle-au-bond{background:url('../images/projets/balle-au-bond-big.jpg') left center / cover no-repeat;}
-.home .projet .preview .pic:after{background:url('../images/projets/balle-au-bond-big-hover.jpg') left center / cover no-repeat;}
+.home .projet .preview .pic#pic-balle-au-bond{background:url('../images/projets/balle-au-bond/balle-au-bond-big.jpg') left center / cover no-repeat;}
+.home .projet .preview .pic:after{background:url('../images/projets/balle-au-bond/balle-au-bond-big-hover.jpg') left center / cover no-repeat;}
 .home .projet .preview .pic#pic-balle-au-bond .border{border-color:#6fa2ff;}
 .home .projet#balle-au-bond .projet-infos{background:#6fa2ff;}
 .home .projet#balle-au-bond .projet-infos h1 span:after{background:#3653ff;}
 
-.home .projet .preview .pic#pic-saupiquet{background:url('../images/projets/saupiquet-big.jpg') left center / cover no-repeat;}
-.home .projet .preview .pic#pic-saupiquet:after{background:url('../images/projets/saupiquet-big-hover.jpg') left center / cover no-repeat;}
+.home .projet .preview .pic#pic-saupiquet{background:url('../images/projets/saupiquet/saupiquet-big.jpg') left center / cover no-repeat;}
+.home .projet .preview .pic#pic-saupiquet:after{background:url('../images/projets/saupiquet/saupiquet-big-hover.jpg') left center / cover no-repeat;}
 .home .projet .preview .pic#pic-saupiquet .border{border-color:#c1ff8f;}
 .home .projet#saupiquet .projet-infos{background:#c1ff8f;}
 .home .projet#saupiquet .projet-infos h1 span:after{background:#47e409;}
 
-.home .projet .preview .pic#pic-le-petit-marseillais{background:url('../images/projets/le-petit-marseillais-big.jpg') left center / cover no-repeat;}
-.home .projet .preview .pic#pic-le-petit-marseillais:after{background:url('../images/projets/le-petit-marseillais-big-hover.jpg') left center / cover no-repeat;}
+.home .projet .preview .pic#pic-le-petit-marseillais{background:url('../images/projets/le-petit-marseillais/le-petit-marseillais-big.jpg') left center / cover no-repeat;}
+.home .projet .preview .pic#pic-le-petit-marseillais:after{background:url('../images/projets/le-petit-marseillais/le-petit-marseillais-big-hover.jpg') left center / cover no-repeat;}
 .home .projet .preview .pic#pic-le-petit-marseillais .border{border-color:#fde7d6;}
 .home .projet#le-petit-marseillais .projet-infos{background:#fde7d6;}
 .home .projet#le-petit-marseillais .projet-infos h1 span:after{background:#fe0036;}
 
-.home .projet .preview .pic#pic-animaux-sante{background:url('../images/projets/animaux-sante-big.jpg') center center / cover no-repeat;}
-.home .projet .preview .pic#pic-animaux-sante:after{background:url('../images/projets/animaux-sante-big-hover.jpg') left center / cover no-repeat;}
+.home .projet .preview .pic#pic-animaux-sante{background:url('../images/projets/animaux-sante/animaux-sante-cover.jpg') center center / cover no-repeat;}
+.home .projet .preview .pic#pic-animaux-sante:after{background:url('../images/projets/animaux-sante/animaux-sante-big-hover.jpg') left center / cover no-repeat;}
 .home .projet .preview .pic#pic-animaux-sante .border{border-color:#8bf4d4;}
 .home .projet#animaux-sante .projet-infos{background:#8bf4d4;}
 .home .projet#animaux-sante .projet-infos h1 span:after{background:#02dca6;}
 
-.home .projet .preview .pic#pic-igloo{background:url('../images/projets/igloo-big.jpg') center center / cover no-repeat;}
-.home .projet .preview .pic#pic-igloo:after{background:url('../images/projets/igloo-big-hover.jpg') left center / cover no-repeat;}
+.home .projet .preview .pic#pic-igloo{background:url('../images/projets/igloo/igloo-big.jpg') center center / cover no-repeat;}
+.home .projet .preview .pic#pic-igloo:after{background:url('../images/projets/igloo/igloo-big-hover.jpg') left center / cover no-repeat;}
 .home .projet .preview .pic#pic-igloo .border{border-color:#12e6e1;}
 .home .projet#igloo .projet-infos{background:#12e6e1;}
 .home .projet#igloo .projet-infos h1 span:after{background:#007976;}
 
-.home .projet .preview .pic#pic-wilkinson-summer{background:url('../images/projets/wilkinson-summer-big.jpg') center center / cover no-repeat;}
-.home .projet .preview .pic#pic-wilkinson-summer:after{background:url('../images/projets/wilkinson-summer-big-hover.jpg') left center / cover no-repeat;}
+.home .projet .preview .pic#pic-wilkinson-summer{background:url('../images/projets/wilkinson-summer/wilkinson-summer-big.jpg') center center / cover no-repeat;}
+.home .projet .preview .pic#pic-wilkinson-summer:after{background:url('../images/projets/wilkinson-summer/wilkinson-summer-big-hover.jpg') left center / cover no-repeat;}
 .home .projet .preview .pic#pic-wilkinson-summer .border{border-color:#e0fe69;}
 .home .projet#wilkinson-summer .projet-infos{background:#e0fe69;}
 .home .projet#wilkinson-summer .projet-infos h1 span:after{background:#0b9088;}
 
-.home .projet .preview .pic#pic-auzou{background:url('../images/projets/auzou-big.jpg') center center / cover no-repeat;}
-.home .projet .preview .pic#pic-auzou:after{background:url('../images/projets/auzou-big-hover.jpg') left center / cover no-repeat;}
+.home .projet .preview .pic#pic-auzou{background:url('../images/projets/auzou/auzou-big.jpg') center center / cover no-repeat;}
+.home .projet .preview .pic#pic-auzou:after{background:url('../images/projets/auzou/auzou-big-hover.jpg') left center / cover no-repeat;}
 .home .projet .preview .pic#pic-auzou .border{border-color:#e9c6ff;}
 .home .projet#auzou .projet-infos{background:#e9c6ff;}
 .home .projet#auzou .projet-infos h1 span:after{background:#9336ee;}
 
-.home .projet .preview .pic#pic-classic-expert{background:url('../images/projets/classic-expert-big.jpg') center center / cover no-repeat;}
-.home .projet .preview .pic#pic-classic-expert:after{background:url('../images/projets/classic-expert-big-hover.jpg') left center / cover no-repeat;}
+.home .projet .preview .pic#pic-classic-expert{background:url('../images/projets/classic-expert/classic-expert-big.jpg') center center / cover no-repeat;}
+.home .projet .preview .pic#pic-classic-expert:after{background:url('../images/projets/classic-expert/classic-expert-big-hover.jpg') left center / cover no-repeat;}
 .home .projet .preview .pic#pic-classic-expert .border{border-color:#fee7b9;}
 .home .projet#classic-expert .projet-infos{background:#fee7b9;}
 .home .projet#classic-expert .projet-infos h1 span:after{background:#c7874d;}
@@ -293,30 +293,30 @@ aside .projet-nav .projet-name{display:block; font-weight:400;}
 
 /* Themes */
 .projets.balle-au-bond .intro-projet{background:#6fa2ff;}
-.projets.balle-au-bond .intro-projet:before{background:url('/images/projets/balle-au-bond-cover.jpg') no-repeat center/cover;}
+.projets.balle-au-bond .intro-projet:before{background:url('/images/projets/balle-au-bond/balle-au-bond-cover.jpg') no-repeat center/cover;}
 
 .projets.classic-expert .intro-projet{background:#fee7b9;}
-.projets.classic-expert .intro-projet:before{background:url('/images/projets/classic-expert-cover.jpg') no-repeat center/cover;}
+.projets.classic-expert .intro-projet:before{background:url('/images/projets/classic-expert/classic-expert-cover.jpg') no-repeat center/cover;}
 .projets.classic-expert .intro-projet .title-projet h1 span:after{background:#c9854b;}
 
 .projets.saupiquet .intro-projet{background:#c1ff8f;}
-.projets.saupiquet .intro-projet:before{background:url('/images/projets/saupiquet-cover.jpg') no-repeat center/cover;}
+.projets.saupiquet .intro-projet:before{background:url('/images/projets/saupiquet/saupiquet-cover.jpg') no-repeat center/cover;}
 .projets.saupiquet .intro-projet .title-projet h1 span:after{background:#47e409;}
 
 .projets.igloo .intro-projet{background:#12e6e1;}
-.projets.igloo .intro-projet:before{background:url('/images/projets/igloo-cover.jpg') no-repeat center/cover;}
+.projets.igloo .intro-projet:before{background:url('/images/projets/igloo/igloo-cover.jpg') no-repeat center/cover;}
 .projets.igloo .intro-projet .title-projet h1 span:after{background:#007976;}
 
 .projets.auzou .intro-projet{background:#fcf0ff;}
-.projets.auzou .intro-projet:before{background:url('/images/projets/auzou-cover.jpg') no-repeat center/cover;}
+.projets.auzou .intro-projet:before{background:url('/images/projets/auzou/auzou-cover.jpg') no-repeat center/cover;}
 .projets.auzou .intro-projet .title-projet h1 span:after{background:#b767cb;}
 
 .projets.wilkinson-summer .intro-projet{background:#e0fe69;}
-.projets.wilkinson-summer .intro-projet:before{background:url('/images/projets/wilkinson-summer-cover.jpg') no-repeat center/cover;}
+.projets.wilkinson-summer .intro-projet:before{background:url('/images/projets/wilkinson-summer/wilkinson-summer-big.jpg') no-repeat center/cover;}
 .projets.wilkinson-summer .intro-projet .title-projet h1 span:after{background:#0b9088;}
 
 .projets.animaux-sante .intro-projet{background:#8bf4d4;}
-.projets.animaux-sante .intro-projet:before{background:url('/images/projets/animaux-sante-cover.jpg') no-repeat center/cover;}
+.projets.animaux-sante .intro-projet:before{background:url('/images/projets/animaux-sante/animaux-sante-cover.jpg') no-repeat center/cover;}
 .projets.animaux-sante .intro-projet .title-projet h1 span:after{background:#02dca6;}
 
 
@@ -338,13 +338,13 @@ footer .social a:before{display:inline-block; vertical-align:middle; content:"";
 /* Retina */
 @media screen and (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) { 
   /* Home */
-  .home .projet#balle-au-bond .preview .pic:after{background:url('../images/projets/balle-au-bond-big-hover-x2.jpg') left center / cover no-repeat;}
-  .home .projet#saupiquet .preview .pic:after{background:url('../images/projets/saupiquet-big-hover-x2.jpg') left center / cover no-repeat;}
-  .home .projet#animaux-sante .preview .pic:after{background:url('../images/projets/animaux-sante-big-hover-x2.jpg') left center / cover no-repeat;}
-  .home .projet#le-petit-marseillais .preview .pic:after{background:url('../images/projets/le-petit-marseillais-big-hover-x2.jpg') left center / cover no-repeat;}
-  .home .projet#igloo .preview .pic:after{background:url('../images/projets/igloo-big-hover-x2.jpg') left center / cover no-repeat;}
-  .home .projet#auzou .preview .pic:after{background:url('../images/projets/auzou-big-hover-x2.jpg') left center / cover no-repeat;}
-  .home .projet#classic-expert .preview .pic:after{background:url('../images/projets/classic-expert-big-hover-x2.jpg') left center / cover no-repeat;}
+  .home .projet#balle-au-bond .preview .pic:after{background:url('../images/projets/balle-au-bond/balle-au-bond-big-hover-x2.jpg') left center / cover no-repeat;}
+  .home .projet#saupiquet .preview .pic:after{background:url('../images/projets/saupiquet/saupiquet-big-hover-x2.jpg') left center / cover no-repeat;}
+  .home .projet#animaux-sante .preview .pic:after{background:url('../images/projets/animaux-sante/animaux-sante-big-hover-x2.jpg') left center / cover no-repeat;}
+  .home .projet#le-petit-marseillais .preview .pic:after{background:url('../images/projets/le-petit-marseillais/le-petit-marseillais-big-hover-x2.jpg') left center / cover no-repeat;}
+  .home .projet#igloo .preview .pic:after{background:url('../images/projets/igloo/igloo-big-hover-x2.jpg') left center / cover no-repeat;}
+  .home .projet#auzou .preview .pic:after{background:url('../images/projets/auzou/auzou-big-hover-x2.jpg') left center / cover no-repeat;}
+  .home .projet#classic-expert .preview .pic:after{background:url('../images/projets/classic-expert/classic-expert-big-hover-x2.jpg') left center / cover no-repeat;}
 }
 
 

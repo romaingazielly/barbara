@@ -57,7 +57,7 @@
 
         <article class="intro-projet">
           <div class="title-projet">
-            <img src="/images/projets/balle-au-bond-mini.png"><h1><span>La balle</span><br/><span>au bond</span></h1>
+            <img src="/images/projets/balle-au-bond/balle-au-bond-mini.png"><h1><span>La balle</span><br/><span>au bond</span></h1>
           </div>
 
           <div class="infos-projet">
@@ -81,21 +81,21 @@
         <article class="gallerie">
 
           <section class="full">
-            <img src="/images/projets/balle-au-bond-full.jpg">
+            <img src="/images/projets/balle-au-bond/balle-au-bond-full.jpg">
           </section>
           
           <section class="double">
-            <img src="/images/projets/balle-au-bond-double-2.jpg">
-            <img src="/images/projets/balle-au-bond-double-1.jpg">
+            <img src="/images/projets/balle-au-bond/balle-au-bond-double-2.jpg">
+            <img src="/images/projets/balle-au-bond/balle-au-bond-double-1.jpg">
           </section>
 
           <section class="full nomarg">
-            <img src="/images/projets/balle-au-bond-full-2.jpg">
+            <img src="/images/projets/balle-au-bond/balle-au-bond-full-2.jpg">
           </section>
           
           <section class="double">
-            <img src="/images/projets/balle-au-bond-double-3.jpg">
-            <img src="/images/projets/balle-au-bond-double-4.jpg">
+            <img src="/images/projets/balle-au-bond/balle-au-bond-double-3.jpg">
+            <img src="/images/projets/balle-au-bond/balle-au-bond-double-4.jpg">
           </section>
 
         </article>

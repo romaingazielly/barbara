@@ -57,7 +57,7 @@
 
         <article class="intro-projet">
           <div class="title-projet">
-            <img src="/images/projets/classic-expert-mini.png"><h1><span>Classic</span><br/><span>Expert</span></h1>
+            <img src="/images/projets/classic-expert/classic-expert-mini.png"><h1><span>Classic</span><br/><span>Expert</span></h1>
           </div>
 
           <div class="infos-projet">
@@ -81,28 +81,24 @@
         <article class="gallerie">
 
           <section class="full">
-            <img src="/images/projets/classic-expert-full.jpg">
+            <img src="/images/projets/classic-expert/classic-expert-full.jpg" srcset="/images/projets/classic-expert/classic-expert-full-x2.jpg 2x">
           </section>
 
           <section class="full nomarg">
-            <img src="/images/projets/classic-expert-full-2.jpg">
-          </section>
-
-          <section class="solo">
-            <img src="/images/projets/classic-expert-cover-2.jpg">
+            <img src="/images/projets/classic-expert/classic-expert-full-2.jpg" srcset="/images/projets/classic-expert/classic-expert-full-2-x2.jpg 2x">
           </section>
 
           <section class="double">
-            <img src="/images/projets/classic-expert-double-1.jpg">
-            <img src="/images/projets/classic-expert-double-2.jpg">
+            <img src="/images/projets/classic-expert/classic-expert-double-1.jpg" srcset="/images/projets/classic-expert/classic-expert-double-1-x2.jpg 2x">
+            <img src="/images/projets/classic-expert/classic-expert-double-2.jpg" srcset="/images/projets/classic-expert/classic-expert-double-2-x2.jpg 2x">
           </section>
 
           <section class="full">
-            <img src="/images/projets/classic-expert-full-3.jpg">
+            <img src="/images/projets/classic-expert/classic-expert-full-3.jpg" srcset="/images/projets/classic-expert/classic-expert-full-3-x2.jpg 2x">
           </section>
 
           <section class="full nomarg">
-            <img src="/images/projets/classic-expert-full-4.jpg">
+            <img src="/images/projets/classic-expert/classic-expert-full-4.jpg" srcset="/images/projets/classic-expert/classic-expert-full-4-x2.jpg 2x">
           </section>
 
         </article>

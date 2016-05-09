@@ -202,7 +202,7 @@ function sliderHome(compteur){
 	$('.home .projet').attr('id', dataHome.projets[index].id); // Ajout l'id du projet pour le CSS
 
 	// Changements des infos
-	$('#miniature-projet').html('<img src="/images/projets/'+ dataHome.projets[index].id +'-mini.png" srcset="/images/projets/'+ dataHome.projets[index].id +'-mini-x2.png 2x" alt="'+ dataHome.projets[index].title +'" />');
+	$('#miniature-projet').html('<img src="/images/projets/'+ dataHome.projets[index].id + '/' + dataHome.projets[index].id +'-mini.png" srcset="/images/projets/'+ dataHome.projets[index].id + '/'+ dataHome.projets[index].id +'-mini-x2.png 2x" alt="'+ dataHome.projets[index].title +'" />');
 	$('#titre-projet').html(dataHome.projets[index].title); // Titre
 	$('#subtitle-projet').html(dataHome.projets[index].subtitle);
 	$('#num-projet').html(compteur); // Numérotation
@@ -210,8 +210,8 @@ function sliderHome(compteur){
 	 					.attr('title', dataHome.projets[index].name);
 	// Animations
 	TweenLite.fromTo( $('#miniature-projet'), 2, {marginTop:70, autoAlpha:0}, {marginTop:0, autoAlpha:1});
-	TweenLite.fromTo( $('#titre-projet'), 2, {autoAlpha:0}, {autoAlpha:1});
-	TweenLite.fromTo( $('#subtitle-projet'), 2, {autoAlpha:0}, {autoAlpha:1});
+	TweenLite.fromTo( $('#titre-projet'), 1, {autoAlpha:0}, {autoAlpha:1});
+	TweenLite.fromTo( $('#subtitle-projet'), 1, {autoAlpha:0}, {autoAlpha:1});
 
 	// Si 1 -> 8
 	memory.push(compteur);

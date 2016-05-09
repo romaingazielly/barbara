@@ -21,7 +21,7 @@
 
         <article class="intro-projet">
           <div class="title-projet">
-            <img src="/images/projets/auzou-mini.png"><h1><span>Éditions</span><br/><span>Auzou</span></h1>
+            <img src="/images/projets/auzou/auzou-mini.png"><h1><span>Éditions</span><br/><span>Auzou</span></h1>
           </div>
 
           <div class="infos-projet">
@@ -46,28 +46,24 @@
         <article class="gallerie">
 
           <section class="full">
-            <img src="/images/projets/auzou-full.png">
+            <img src="/images/projets/auzou/auzou-full.jpg" srcset="/images/projets/auzou/auzou-full-x2.jpg 2x" alt="Auzou">
           </section>
 
           <section class="full">
-            <img src="/images/projets/auzou-full-2.jpg">  
+            <img src="/images/projets/auzou/auzou-full-2.jpg" srcset="/images/projets/auzou/auzou-full-x2.jpg 2x" alt="Auzou">  
           </section>
 
           <section class="full">
-            <img src="/images/projets/auzou-full-3.jpg">
+            <img src="/images/projets/auzou/auzou-full-3.jpg" srcset="/images/projets/auzou/auzou-full-3-x2.jpg 2x" alt="Auzou">
           </section>
           
           <section class="double">
-            <img src="/images/projets/auzou-double-1.jpg">
-            <img src="/images/projets/auzou-double-2.jpg">
+            <img src="/images/projets/auzou/auzou-double-1.jpg" srcset="/images/projets/auzou/auzou-double-1-x2.jpg 2x" alt="Auzou">
+            <img src="/images/projets/auzou/auzou-double-2.jpg" srcset="/images/projets/auzou/auzou-double-2-x2.jpg 2x" alt="Auzou">
           </section>
 
           <section class="full nomarg">
-            <img src="/images/projets/auzou-full-4.jpg">  
-          </section>
-
-          <section class="full nomarg">
-            <img src="/images/projets/auzou-full-5.jpg">  
+            <img src="/images/projets/auzou/auzou-full-4.jpg" srcset="/images/projets/auzou/auzou-full-4-x2.jpg 2x" alt="Auzou">  
           </section>
 
         </article>
