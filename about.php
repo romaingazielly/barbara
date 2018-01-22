@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Portfolio de Barbara Sevin">
-        <title>Barbara Sevin - Portfolio 2016</title>
+        <meta name="description" content="Barbara, 27 ans Directrice Artistique chez Drive - Lyon">
+        <title>Barbara Sevin - À propos</title>
         <link href="/images/icons/favicon.ico" rel="shortcut icon">
         <link href="/images/icons/touch.png" rel="apple-touch-icon-precomposed">
         <link rel="stylesheet" href="css/reset.css">
@@ -57,7 +57,7 @@
           <div>
             <h1>
               <span>Say hello!</span>
-              <a id="mail" href="mailto:barbara.sevin@gmail.com">barbara.sevin@gmail.com</a>
+              <a id="mail" href="mailto:barbara.sevin@gmail.com" title="Say hello!">barbara.sevin@gmail.com</a>
             </h1>
           </div>
           <a id="go-top" href="javascript:;" title="Go to Top">Top</a>
