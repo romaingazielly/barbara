@@ -5,7 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio de Barbara Sevin. Directrice Artistique digital, spécialisée en UI et Social Branding. Webdesign // UI // UX // Identité // Webdesign // Design.">
-        <title>Barbara Sevin - Portfolio</title>
+        <title>Barbara Sevin - Directrice Artistique</title>
+        <link rel='canonical' href='https://barbara-sevin.fr/' />
+        <link rel='shortlink' href='https://barbara-sevin.fr/' />
+        <link href="https://barbara-sevin.fr/" rel="alternate" hreflang="fr">
         <link href="/images/icons/favicon.ico" rel="shortcut icon">
         <link href="/images/icons/touch.png" rel="apple-touch-icon-precomposed">
         <link rel="stylesheet" href="/css/reset.css">
