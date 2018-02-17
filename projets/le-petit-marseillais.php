@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Portfolio de Barbara Sevin">
-        <title>Barbara Sevin - Portfolio 2016</title>
+        <meta name="description" content="Pour promouvoir son huile anti-cellulite sublimante et fidéliser sa communauté avant l'été, Le Petit Marseillais a opté pour un Facebook contest. Les participantes sont invitées à proposer 3 mots qui expriment selon elles la « Femme Sublimée » et la « Beauté au naturel » avant de s'inscrire au tirage au sort.">
+        <title>Barbara Sevin - Projet Le Petit Marseillais</title>
         <link href="/images/icons/favicon.ico" rel="shortcut icon">
         <link href="/images/icons/touch.png" rel="apple-touch-icon-precomposed">
         <link rel="stylesheet" href="/css/reset.css">

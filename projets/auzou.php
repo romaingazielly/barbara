@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Portfolio de Barbara Sevin">
-        <title>Barbara Sevin - Portfolio 2016</title>
+        <meta name="description" content="Un nouveau site e-commerce a été pensé pour les éditions Auzou. L'univers riche et coloré assure une expérience immersive pour petits et grands avec l'utilisation d'un background dynamique.">
+        <title>Barbara Sevin - Projet Auzou</title>
         <link href="/images/icons/favicon.ico" rel="shortcut icon">
         <link href="/images/icons/touch.png" rel="apple-touch-icon-precomposed">
         <link rel="stylesheet" href="/css/reset.css">

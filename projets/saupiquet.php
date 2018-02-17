@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Portfolio de Barbara Sevin">
-        <title>Barbara Sevin - Portfolio 2016</title>
+        <meta name="description" content="Saupiquet est un site responsive ainsi qu'une série de jeux et publications visant à animer la page Facebook de la marque. Une nouvelle image plus colorée et ludique a été choisie pour véhiculer l'esprit convivial du produit et ses temps forts de consommation (pic-nic, apéritif...).">
+        <title>Barbara Sevin - Projet Saupiquet</title>
         <link href="/images/icons/favicon.ico" rel="shortcut icon">
         <link href="/images/icons/touch.png" rel="apple-touch-icon-precomposed">
         <link rel="stylesheet" href="/css/reset.css">

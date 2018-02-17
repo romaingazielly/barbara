@@ -6,11 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio de Barbara Sevin. Directrice Artistique digital, spécialisée en UI et Social Branding. Webdesign // UI // UX // Identité // Webdesign // Design.">
         <title>Barbara Sevin - Directrice Artistique</title>
+
+        <?php include('partials/meta.php'); ?>
+
         <link rel='canonical' href='https://barbara-sevin.fr/' />
         <link rel='shortlink' href='https://barbara-sevin.fr/' />
         <link href="https://barbara-sevin.fr/" rel="alternate" hreflang="fr">
         <link href="/images/icons/favicon.ico" rel="shortcut icon">
         <link href="/images/icons/touch.png" rel="apple-touch-icon-precomposed">
+        
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,800">

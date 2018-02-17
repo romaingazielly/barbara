@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Portfolio de Barbara Sevin">
-        <title>Barbara Sevin - Portfolio 2016</title>
+        <meta name="description" content="La Balle au bond est une péniche située sur la seine, au coeur de Paris. Pour attirer un public à l'image de sa programmation alternative & éclectique, La balle au bond a souhaité repenser sa communication on & offline pour une image plus jeune et décalée.">
+        <title>Barbara Sevin - Projet La balle au bond</title>
         <link href="/images/icons/favicon.ico" rel="shortcut icon">
         <link href="/images/icons/touch.png" rel="apple-touch-icon-precomposed">
         <link rel="stylesheet" href="/css/reset.css">

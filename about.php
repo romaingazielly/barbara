@@ -3,9 +3,20 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Barbara, 27 ans Directrice Artistique chez Drive - Lyon">
+        <meta name="keywords" content="Art direction, Web design, Barbara Sevin">
         <title>Barbara Sevin - À propos</title>
+
+        <?php include('partials/meta.php'); ?>
+        
+        <link rel='canonical' href='https://barbara-sevin.fr/' />
+        <link rel='shortlink' href='https://barbara-sevin.fr/' />
+        <link href="https://barbara-sevin.fr/" rel="alternate" hreflang="fr">
+        <link href="/images/icons/favicon.ico" rel="shortcut icon">
+        <link href="/images/icons/touch.png" rel="apple-touch-icon-precomposed">
+
         <link href="/images/icons/favicon.ico" rel="shortcut icon">
         <link href="/images/icons/touch.png" rel="apple-touch-icon-precomposed">
         <link rel="stylesheet" href="css/reset.css">
@@ -44,12 +55,12 @@
           </div>
          
           <ul>
-            <li><a href="" title="Hawaiian Tropic"><img src="/images/clients/hawaiian.jpg" srcset="/images/clients/hawaiian-x2.jpg 2x" alt="Hawaiian Tropic"></a></li> 
-            <li><a href="" title="Théâtre des Champs-Élysées"><img src="/images/clients/tce.jpg" srcset="/images/clients/tce-x2.jpg 2x" alt="Théâtre des Champs-Élysées"></a></li> 
-            <li><a href="" title="Wilkinson Summer"><img src="/images/clients/wilki.jpg" srcset="/images/clients/wilki-x2.jpg 2x" alt="Wilkinson Summer"></a></li> 
-            <li><a href="" title="Slow Cow"><img src="/images/clients/slowcow.jpg" srcset="/images/clients/slowcow-x2.jpg 2x" alt="Slow Cow"></a></li> 
-            <li><a href="" title="Le Petit Marseillais"><img src="/images/clients/lpm.jpg" srcset="/images/clients/lpm-x2.jpg 2x" alt="Le Petit Marseillais"></a></li> 
-            <li><a href="" title="Taxis G7"><img src="/images/clients/tg7.jpg" srcset="/images/clients/tg7-x2.jpg 2x" alt="Taxis G7" /></a></li>
+            <li><a href="http://www.hawaiiantropic.fr/" title="Hawaiian Tropic" target="_blank"><img src="/images/clients/hawaiian.jpg" srcset="/images/clients/hawaiian-x2.jpg 2x" alt="Hawaiian Tropic"></a></li> 
+            <li><a href="http://www.theatrechampselysees.fr/" title="Théâtre des Champs-Élysées" target="_blank"><img src="/images/clients/tce.jpg" srcset="/images/clients/tce-x2.jpg 2x" alt="Théâtre des Champs-Élysées"></a></li> 
+            <li><a href="http://www.mywilkinson.fr/" title="Wilkinson Summer" target="_blank"><img src="/images/clients/wilki.jpg" srcset="/images/clients/wilki-x2.jpg 2x" alt="Wilkinson Summer"></a></li> 
+            <li><a href="https://slowcow.com/" title="Slow Cow" target="_blank"><img src="/images/clients/slowcow.jpg" srcset="/images/clients/slowcow-x2.jpg 2x" alt="Slow Cow"></a></li> 
+            <li><a href="https://www.lepetitmarseillais.com/" title="Le Petit Marseillais" target="_blank"><img src="/images/clients/lpm.jpg" srcset="/images/clients/lpm-x2.jpg 2x" alt="Le Petit Marseillais"></a></li> 
+            <li><a href="https://www.g7.fr/" title="Taxis G7" target="_blank"><img src="/images/clients/tg7.jpg" srcset="/images/clients/tg7-x2.jpg 2x" alt="Taxis G7" /></a></li>
           </ul>
         </article>
 
