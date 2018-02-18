@@ -8,12 +8,12 @@
   <div class="links">
     <div class="join">
       <h1>Barbara Sevin - <strong>Art Director</strong></h1>
-      <a href="mailto:barbara.sevin@gmail.com">barbara.sevin@gmail.com</a>
+      <a href="mailto:barbara.sevin@gmail.com" title="Contacter Barbara Sevin">barbara.sevin@gmail.com</a>
     </div>
 
     <ul class="social">
-      <li><a href="">Behance</a></li>
-      <li><a href="">LinkedIn</a></li>
+      <li><a href="https://www.behance.net/barbarasev" title="Behance - Barbara Sevin" target="_blank">Behance</a></li>
+      <li><a href="https://fr.linkedin.com/in/barbara-sevin-65445967" title="LinkedIn - Barbara Sevin" target="_blank">LinkedIn</a></li>
     </ul>
   </div>
 </footer>

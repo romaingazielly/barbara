@@ -5,20 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Barbara, 27 ans Directrice Artistique chez Drive - Lyon">
+        <meta name="description" content="Barbara, 27 ans Directrice Artistique en agence digitale chez Drive - Lyon">
         <meta name="keywords" content="Art direction, Web design, Barbara Sevin">
         <title>Barbara Sevin - À propos</title>
 
         <?php include('partials/meta.php'); ?>
         
-        <link rel='canonical' href='https://barbara-sevin.fr/' />
-        <link rel='shortlink' href='https://barbara-sevin.fr/' />
-        <link href="https://barbara-sevin.fr/" rel="alternate" hreflang="fr">
-        <link href="/images/icons/favicon.ico" rel="shortcut icon">
-        <link href="/images/icons/touch.png" rel="apple-touch-icon-precomposed">
-
-        <link href="/images/icons/favicon.ico" rel="shortcut icon">
-        <link href="/images/icons/touch.png" rel="apple-touch-icon-precomposed">
+        <link href="https://barbara-sevin.fr/about" rel="alternate" hreflang="fr-FR">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,800">
