@@ -17,7 +17,7 @@
     <body class="page-projet">
       <?php include('../partials/header.php'); ?>
 
-      <section class="container projets classic-expert">
+      <section class="container projets le-petit-marseillais">
 
         <article class="intro-projet">
           <div class="title-projet">

@@ -315,9 +315,13 @@ aside .projet-nav .projet-name{display:block; font-weight:400;}
 .projets.wilkinson-summer .intro-projet:before{background:url('/images/projets/wilkinson-summer/wilkinson-summer-big.jpg') no-repeat center/cover;}
 .projets.wilkinson-summer .intro-projet .title-projet h1 span:after{background:#0b9088;}
 
-.projets.animaux-sante .intro-projet{background:#8bf4d4;}
+.projets.animaux-sante .intro-projet{background:#fde7d6;}
 .projets.animaux-sante .intro-projet:before{background:url('/images/projets/animaux-sante/animaux-sante-cover.jpg') no-repeat center/cover;}
 .projets.animaux-sante .intro-projet .title-projet h1 span:after{background:#02dca6;}
+
+.projets.le-petit-marseillais .intro-projet{background:#8bf4d4;}
+.projets.le-petit-marseillais .intro-projet:before{background:url('/images/projets/le-petit-marseillais/le-petit-marseillais-cover.jpg') no-repeat center/cover;}
+.projets.le-petit-marseillais .intro-projet .title-projet h1 span:after{background:#fe0036;}
 
 
 /*****************************/
