@@ -21,7 +21,7 @@
 
         <article class="intro-projet">
           <div class="title-projet">
-            <img src="/images/projets/le-petit-marseillais-mini.png"><h1><span>Le Petit</span><br/><span>Marseillais</span></h1>
+            <img src="/images/projets/le-petit-marseillais/le-petit-marseillais-mini.png"><h1><span>Le Petit</span><br/><span>Marseillais</span></h1>
           </div>
 
           <div class="infos-projet">
@@ -46,23 +46,23 @@
         <article class="gallerie">
          
         <section class="full">
-          <img src="/images/projets/le-petit-marseillais-full.jpg" srcset="/images/projets/le-petit-marseillais-full-x2.jpg 2x" alt="Le Petit Marseillais" />
+          <img src="/images/projets/le-petit-marseillais/le-petit-marseillais-full.jpg" srcset="/images/projets/le-petit-marseillais/le-petit-marseillais-full-x2.jpg 2x" alt="Le Petit Marseillais" />
         </section>
 
         <section class="full">
-          <img src="/images/projets/le-petit-marseillais-full2.jpg" srcset="/images/projets/le-petit-marseillais-full2-x2.jpg 2x" alt="Le Petit Marseillais" />
+          <img src="/images/projets/le-petit-marseillais/le-petit-marseillais-full2.jpg" srcset="/images/projets/le-petit-marseillais/le-petit-marseillais-full2-x2.jpg 2x" alt="Le Petit Marseillais" />
         </section>
 
         <section class="full">
-          <img src="/images/projets/le-petit-marseillais-full3.jpg" srcset="/images/projets/le-petit-marseillais-full3-x2.jpg 2x" alt="Le Petit Marseillais" />
+          <img src="/images/projets/le-petit-marseillais/le-petit-marseillais-full3.jpg" srcset="/images/projets/le-petit-marseillais/le-petit-marseillais-full3-x2.jpg 2x" alt="Le Petit Marseillais" />
         </section>
 
         <section class="full">
-          <img src="/images/projets/le-petit-marseillais-full4.jpg" srcset="/images/projets/le-petit-marseillais-full4-x2.jpg 2x" alt="Le Petit Marseillais" />
+          <img src="/images/projets/le-petit-marseillais/le-petit-marseillais-full4.jpg" srcset="/images/projets/le-petit-marseillais/le-petit-marseillais-full4-x2.jpg 2x" alt="Le Petit Marseillais" />
         </section>
 
         <section class="full">
-          <img src="/images/projets/le-petit-marseillais-full5.jpg" srcset="/images/projets/le-petit-marseillais-full5-x2.jpg 2x" alt="Le Petit Marseillais" />
+          <img src="/images/projets/le-petit-marseillais/le-petit-marseillais-full5.jpg" srcset="/images/projets/le-petit-marseillais/le-petit-marseillais-full5-x2.jpg 2x" alt="Le Petit Marseillais" />
         </section>
 
         </article>
