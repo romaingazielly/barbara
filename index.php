@@ -50,7 +50,7 @@
                 <li><a href="/projets/wilkinson-summer" title="Wilkinson Summer">Wilkinson Summer</a></li>
               </ul>
               <p><a href="/moodboards" title="Moodboards">Moodboards</a></p>
-              <p><a href="/about.html" title="About">About</a></p>
+              <p><a href="/about" title="About">About</a></p>
               </div>
             </div>
           </nav>
