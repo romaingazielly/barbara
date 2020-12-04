@@ -21,7 +21,7 @@
 
         <article class="intro-projet">
           <div class="title-projet">
-            <img src="/images/projets/saupiquet-mini.png"><h1><span>Saupiquet</span></h1>
+            <img src="/images/projets/saupiquet/saupiquet-mini.png"><h1><span>Saupiquet</span></h1>
           </div>
 
           <div class="infos-projet">
@@ -45,24 +45,24 @@
         <article class="gallerie">
 
           <section class="full">
-            <img src="/images/projets/saupiquet-full.jpg">
+            <img src="/images/projets/saupiquet/saupiquet-full.jpg">
           </section>
 
           <section class="full nomarg">
-            <img src="/images/projets/saupiquet-full-2.jpg">
+            <img src="/images/projets/saupiquet/saupiquet-full-2.jpg">
           </section>
 
           <section class="full">
-            <img src="/images/projets/saupiquet-full-3.jpg">
+            <img src="/images/projets/saupiquet/saupiquet-full-3.jpg">
           </section>
 
           <section class="double">
-            <img src="/images/projets/saupiquet-double-1.jpg">
-            <img src="/images/projets/saupiquet-double-2.jpg">
+            <img src="/images/projets/saupiquet/saupiquet-double-1.jpg">
+            <img src="/images/projets/saupiquet/saupiquet-double-2.jpg">
           </section>
 
           <section class="full nomarg">
-            <img src="/images/projets/saupiquet-full-4.jpg">
+            <img src="/images/projets/saupiquet/saupiquet-full-4.jpg">
           </section>
 
         </article>
